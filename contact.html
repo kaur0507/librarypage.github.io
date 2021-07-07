@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link rel="icon" href="book.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Kontakt</title>
+    </head>
+
+    <body>
+        <section class="main_page">
+            <nav>
+            <ul class="menu">
+                <li><a class="menu_list" href="registration.html">Rejestracja</a></li>
+                <li><a class="menu_list" href="contact.html">Kontakt</a></li>
+                <li><a class="menu_list" href="books.html">Książki</a></li>
+                <li><a class="menu_list" href="articles.html">Artykuły</a></li>
+                <li><a class="menu_list" href="index.html">Aktualności</a></li>
+            </ul>
+            </nav>
+        </section>
+
+        <img class="library" src="library.jpg" alt="books" max-height="200px">
+
+        <section class="contact_data">
+            <div class="contact">
+                <div class="service_center">
+                    <h2>Centrum Obsługi</h2>
+                    <hr class="line">
+                    <div class="service_center_info">
+                        <strong>adres</strong>: Rynek Główny 1<br>
+                        <strong>godziny otwarcia</strong>: poniedziałek - sobota 10.00 - 19.00<br>
+                        <strong>telefon</strong>: (12) 123 45 67<br>
+                        <strong>email</strong>: <a class="mail" href="mailto:info@bibliotekakrakow.pl">info@bibliotekakrakow.pl</a>
+                    </div>
+                </div>
+                <div class="bank_transfer_details">
+                    <h2>Dane do przelewu</h2>
+                    <hr class="line">
+                    <div>
+                        Nazwa banku i numer rachunku bankowego:<br>
+                        PKO BP SA<br>
+                        95 1111 2222 0000 5555 4444 3210<br>
+                        SWIFT: LDTOPLTT
+                    </div>
+                </div>
+                <div class="secretariat">
+                    <h2>Sekretariat</h2>
+                    <hr class="line">
+                    <div>
+                        <strong>telefon</strong>: (12) 444-21-33<br>
+                        <strong>fax</strong>: (12) 231-32-67<br>
+                        <strong>email</strong>: <a class="mail" href="mailto:sekretariat@bibliotekakrakow.pl">sekretariat@bibliotekakrakow.pl</a>
+                    </div>
+                </div>
+                <div class="facebook">
+                    <h2>Nasza strona na facebook'u</h2>
+                    <hr class="line">
+                    <a href="https://www.facebook.com/BibliotekaKrakow/"><img class="fb_icon" src="fb.jpg" alt="fb icon"></a> &#11013; Kliknij w ikonę</a>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Formularz kontaktowy</h2>
+                <form name="contact_form">
+                    <label>Imię<br><input class="value" type="text" name="form_data" id="name"></label><br>
+                    <label>Nazwisko<br><input class="value" type="text" name="form_data" id="surname"></label><br>
+                    <label>Ulica<br><input class="value" type="text" name="form_data" id="street"></label><br>
+                    <label>Miasto<br><input class="value" type="text" name="form_data" id="city"></label><br>
+                    <label>Kod pocztowy<br><input class="value" type="text" name="form_data" id="country_code" pattern="[0-9]{2}\-[0-9]{3}" title="Format xx-xxx"></label><br>
+                    <label>E-mail<br><input class="value" type="email" name="form_data" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></label><br><br>
+                    <label>W jakiej sprawie do nas piszesz?<br><textarea class="value" name="form_data" rows="7" cols="40"></textarea></label><br><br>
+                    <button class="summary_button" onclick="sumUp()">Wyślij zgłoszenie</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

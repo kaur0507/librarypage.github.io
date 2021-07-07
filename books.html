@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="book.png">
+        <link rel="stylesheet" href="styles.css">
+        <title>Kontakt</title>
+    </head>
+
+    <body>
+        <section class="main_page">
+            <nav>
+            <ul class="menu">
+                <li><a class="menu_list" href="registration.html">Rejestracja</a></li>
+                <li><a class="menu_list" href="contact.html">Kontakt</a></li>
+                <li><a class="menu_list" href="books.html">Książki</a></li>
+                <li><a class="menu_list" href="articles.html">Artykuły</a></li>
+                <li><a class="menu_list" href="index.html">Aktualności</a></li>
+            </ul>
+            </nav>
+        </section>
+
+        <img class="library" src="library.jpg" alt="books" max-height="200px">
+        
+        <section class="search">
+            <label>Wpisz wyszukiwaną frazę<br><textarea class="searching" name="searching_area" rows="3" cols="50"></textarea></label>
+            <button class="searching_button" onclick="search()">Szukaj</button>
+        </section>
+
+        <section>
+            <h2>Polecane książki</h2>
+            <table>
+                    <tr>
+                        <th fieldid="0">Lp</th>
+                        <th fieldid="1">Autor</th>
+                        <th fieldid="2">Tytuł</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>J. K. Rowling</td>
+                        <td><i>Harry Potter</i></td>
+                    </tr>
+                    <tr>
+                        <td>R. L. Stine</td>
+                        <td><i>Goosebumps</i></td>
+                    </tr>
+                    <tr>
+                        <td>Erle Stanley Gardner</td>
+                        <td><i>Perry Mason</i></td>
+                    </tr>
+                    <tr>
+                        <td>Stan i Jan Berenstain</td>
+                        <td><i>The Berenstain Bears</i></td>
+                    </tr>
+                    <tr>
+                        <td>Francine Pascal</td>
+                        <td><i>Bliźniaczki ze Sweet Valley High</i></td>
+                    </tr>
+                    <tr>
+                        <td>Lydia Millet</td>
+                        <td><i>A Children’s Bible</i></td>
+                    </tr>
+                    <tr>
+                        <td>James McBride</td>
+                        <td><i>Deacon King Kong</i></td>
+                    </tr>
+                    <tr>
+                        <td>Maggie O’Farrell</td>
+                        <td><i>Hamnet</i></td>
+                    </tr>
+                    <tr>
+                        <td>Ayad Akhtar</td>
+                        <td><i>Homeland Elegies</i></td>
+                    </tr>
+                    <tr>
+                        <td>Brit Bennett</td>
+                        <td><i>The Vanishing Half</i></td>
+                    </tr>
+                    <tr>
+                        <td>Robert Kolker</td>
+                        <td><i>Hidden Valley Road</i></td>
+                    </tr>
+                    <tr>
+                        <td>Barack Obama</td>
+                        <td><i>A Promised Land</i></td>
+                    </tr>
+                    <tr>
+                        <td>James Shapiro</td>
+                        <td><i>Shakespeare in a Divided America</i></td>
+                    </tr>
+                    <tr>
+                        <td>Anna Wiener</td>
+                        <td><i>Uncanny Valley</i></td>
+                    </tr>
+                    <tr>
+                        <td>Margaret MacMillan</td>
+                        <td><i>War</i></td>
+                    </tr>
+                    <tr>
+                        <td>Kristin Hannah</td>
+                        <td><i>The Four Winds</i></td>
+                    </tr>
+                    <tr>
+                        <td>Eric Nguyen</td>
+                        <td><i>Things We Lost to the Water</i></td>
+                    </tr>
+                    <tr>
+                        <td>Sarah Penner</td>
+                        <td><i>The Lost Apothecary</i></td>
+                    </tr>
+                    <tr>
+                        <td>Andy Weir</td>
+                        <td><i>Project Hail Mary</i></td>
+                    </tr>
+                    <tr>
+                        <td>Michelle Zauner</td>
+                        <td><i>Crying in H Mart</i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <script>
+            var tables = document.getElementsByTagName('tbody'); //takes elements from tbody tag
+            var table = tables[tables.length -1]; //takes cells from table
+            var rows = table.rows; 
+            for(var i = 0; i < rows.length; i++)
+            {
+                td = document.createElement('td');
+                td.appendChild(document.createTextNode(i + 1)); //adds numbers as "Lp" column
+                rows[i].insertBefore(td, rows[i].firstChild); //adds new element before the old one
+            }
+        </script>
+    </body>
+</html>

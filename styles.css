@@ -1,0 +1,227 @@
+body{
+    display: grid;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    word-spacing: 2px;
+    line-height: 150%;
+}
+.library{
+    max-width: 100%; 
+    height: auto;
+}
+.menu{
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* for list to be shown in 1 line, not in 4 rows and 4 columns */
+    background-color: rgb(19, 90, 131);
+} 
+.menu_list{
+    float: right;
+    text-align: center;
+    font-size: 1.2em;
+    width: 130px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 90, 131);
+    padding: 10px 15px;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+}
+.first_article{
+    display: grid;
+}
+.publishers{
+    padding: 10px;
+}
+.one_publisher{
+    text-decoration: none;
+    color: black;
+}
+.sublist{
+    list-style-image: url('book.png');
+}
+.author{
+    list-style-image: url('feather.png');
+}
+p{
+    text-align: justify;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.delirium_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    height: auto;
+}
+.dark_minds_img{
+    float: left;
+    max-height: 215px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one_more_step_img{
+    float: right;
+    max-height: 215px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one_day_img{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    max-height: 250px;
+    height: auto;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: bottom;
+}
+td{
+    border: 1px solid rgb(19, 90, 131);
+    text-align: left;
+    padding: 8px;
+}
+th{
+    border: 1px solid rgb(19, 90, 131);
+    text-align: center;
+    vertical-align: bottom;
+    padding: 8px;
+    background-color: rgb(227, 242, 243);
+    color: rgb(19, 90, 131);
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+.yt_video{
+    display: block;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mail{
+    color: rgb(19, 90, 131);
+}
+.contact_data{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-grow: -1;
+}
+.fb_icon{
+    max-width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.contact_data{
+    background-color: rgb(227, 242, 243);
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: 50px;
+}
+.value{
+    background-color: rgb(195, 233, 235);
+    font-size: 14px;
+    border-radius: 5px;
+    border:rgb(255, 255, 255);
+    padding: 5px;
+}
+.summary_button, .searching_button{
+    font-size: 14px;
+    background-color: rgb(19, 90, 131);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:rgb(19, 90, 131);
+    padding: 10px;
+}
+.searching_button{
+    width: 200px;
+}
+.registration{
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 100%;
+}
+.data{
+    background-color: rgb(195, 233, 235);
+    font-size: 14px;
+    border-radius: 5px;
+    border:rgb(255, 255, 255);
+    padding: 5px;
+    width: 300px;
+    height: 22px;
+}
+.data_v{
+    background-color: rgb(195, 233, 235);
+    font-size: 14px;
+    border-radius: 5px;
+    border:rgb(255, 255, 255);
+    padding: 5px;
+    width: 310px;
+    height: 34px;
+}
+.tooltip {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.searching{
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 90, 131);
+}
+.one_publisher:hover{
+    background-color: rgb(19, 90, 131);
+    color: white;
+}
+.fb_icon:hover {
+    opacity: 0.7;
+}
+@media only screen and (max-width: 600px) {
+    /*moving form under the contact data here*/
+  }
