@@ -1,21 +1,23 @@
 function sumUp(){
     var f = document.getElementsByName("form_data");
     var pom = Array.from(f);
+    var v = [];
     for(var i = 0; i < pom.length; i++){
         if(pom[i].value==""){
             alert("Uzupełnij wszystkie pola!");
             return
         }
+        v[i] = String(pom[i].value);
     }
-    alert(pom.join("\n")); //although single array element is shown, when joined an "undefined" message occures
+    alert("Podane przez Ciebie dane to:\n"+v.join("\n"));
 }
 
 function confirmation(){
-    if(confirm("Czy jesteś pewien, że nie chcesz otrzymywać materiałów marketingowych?")){
-        txt = "TAK";
+    if(!confirm("Czy jesteś pewien, że nie chcesz otrzymywać materiałów marketingowych?")){
+
     } 
     else{
-        txt = "NIE";
+        return;
     }
 }
 
@@ -23,25 +25,28 @@ function validate(){
     var mail = document.getElementById("email");
     var password = document.getElementById("password");
     var confirm_password = document.getElementById("password_validation");
+    var code = document.getElementById("country_code");
     var o1 = document.getElementById("op1").checked;
     var o2 = document.getElementById("op2").checked;
     var o3 = document.getElementById("op3").checked;
     var conf = document.getElementById("consent").checked;
-    var code = document.getElementById("country_code");
+    var acceptance = document.getElementById("accept").checked;
     var reg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     var reg_2 = /^[0-9]{2}\-[0-9]{3}$/;
-    if(password.value != confirm_password.value){
+    if(password.value != confirm_password.value || password.value==''){
         confirm_password.setCustomValidity("Uzupełnij to pole poprawnie!");
         return false;
     } 
-    else if(password.value=='' || !reg.test(mail.value) || !o1 || !o2 || !o3 || !reg_2.test(code.value)){
+    else if(!reg.test(mail.value) || !reg_2.test(code.value)){
         return false;
     }
-    else if(!conf){
+    else if(o1==false && o2==false && o3==false){
+        return false;
+    }
+    else if(conf==false){
         confirmation();
     }
     else{
-        confirm_password.setCustomValidity('');
         return true;
     }
 }
@@ -50,12 +55,12 @@ function register(){
     var f = document.getElementsByName("registration_data");
     var pom = Array.from(f);
     if(validate()==false){
-        for(var i = 0; i < pom.length; i++){
-            if(pom[i].value==""){
+        //for(var i = 0; i < pom.length; i++){
+            //if(pom[i].value==""){
                 alert("Uzupełnij wszystkie pola poprawnie!");
                 return
-            }
-        }
+            //}
+        //}
     }
     else{
         alert("Udało się poprawnie zarejestrować!");
@@ -63,7 +68,24 @@ function register(){
 }
 
 function search(){
-    
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("book_filter");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("table_to_filter");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td1 = tr[i].getElementsByTagName("td")[0];
+        td2 = tr[i].getElementsByTagName("td")[1];
+        if(td1){
+            txtValue = td.textContent || td.innerText;
+            if(txtValue.toUpperCase().indexOf(filter) > -1){
+                tr[i].style.display = "";
+            } 
+            else{
+                tr[i].style.display = "none";
+            }
+        }       
+    }
 }
 
 function choice(listindex)

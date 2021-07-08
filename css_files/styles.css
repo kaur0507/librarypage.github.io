@@ -116,18 +116,24 @@ tr:nth-child(even){
     color: rgb(19, 90, 131);
 }
 .contact_data{
-    margin: 20px;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-grow: -1;
+    background-color: rgb(227, 242, 243);
+}
+.contact_form{
+    display: block;
+    margin: 0;
 }
 .fb_icon{
     max-width: 25px;
     vertical-align: middle;
     margin-left: 10px;
-}
-.contact_data{
-    background-color: rgb(227, 242, 243);
 }
 .form{
     background-color: rgb(255, 255, 255);
@@ -140,6 +146,7 @@ tr:nth-child(even){
     border-radius: 5px;
     border:rgb(255, 255, 255);
     padding: 5px;
+    width: 350px;
 }
 .summary_button, .searching_button{
     font-size: 14px;
@@ -150,7 +157,7 @@ tr:nth-child(even){
     padding: 10px;
 }
 .searching_button{
-    width: 200px;
+    width: 120px;
 }
 .registration{
     margin-left: auto;
@@ -197,19 +204,25 @@ tr:nth-child(even){
     position: absolute;
     z-index: 1;
 }
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 .search{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     padding: 5px;
 }
 .searching{
     margin-top: 5px;
     border-radius: 5px;
-    border-color: lightgrey;
+    border-color: rgb(19, 90, 131);;
+    min-width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(227, 242, 243);
+    font-size: 14px;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
 }
 a:hover{
     background-color: rgb(255, 255, 255);
@@ -222,6 +235,17 @@ a:hover{
 .fb_icon:hover {
     opacity: 0.7;
 }
+.placeholder{
+    position: relative;
+}
+.placeholder::after{
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    content: attr(data-placeholder);
+    pointer-events: none;
+    opacity: 0.3;
+}
 @media only screen and (max-width: 600px) {
-    /*moving form under the contact data here*/
+    /*moving contact form under the contact data here*/
   }

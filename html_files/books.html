@@ -3,34 +3,36 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="book.png">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="./images/book.png">
+        <link rel="stylesheet" href="../css_files/styles.css">
         <title>Kontakt</title>
     </head>
 
     <body>
         <section class="main_page">
             <nav>
-            <ul class="menu">
-                <li><a class="menu_list" href="registration.html">Rejestracja</a></li>
-                <li><a class="menu_list" href="contact.html">Kontakt</a></li>
-                <li><a class="menu_list" href="books.html">Książki</a></li>
-                <li><a class="menu_list" href="articles.html">Artykuły</a></li>
-                <li><a class="menu_list" href="index.html">Aktualności</a></li>
-            </ul>
+                <ul class="menu">
+                    <li><a class="menu_list" href="../html_files/registration.html">Rejestracja</a></li>
+                    <li><a class="menu_list" href="../html_files/contact.html">Kontakt</a></li>
+                    <li><a class="menu_list" href="../html_files/books.html">Książki</a></li>
+                    <li><a class="menu_list" href="../html_files/articles.html">Artykuły</a></li>
+                    <li><a class="menu_list" href="../html_files/index.html">Aktualności</a></li>
+                </ul>
             </nav>
         </section>
 
-        <img class="library" src="library.jpg" alt="books" max-height="200px">
+        <img class="library" src="../images/library.jpg" alt="books" max-height="200px">
         
         <section class="search">
-            <label>Wpisz wyszukiwaną frazę<br><textarea class="searching" name="searching_area" rows="3" cols="50"></textarea></label>
+            <label>Wpisz wyszukiwaną frazę<br>
+                <input class="searching" placeholder=" Przeszukaj..." name="searching_area" id="book_filter" rows="3" cols="50">
+            </label>
             <button class="searching_button" onclick="search()">Szukaj</button>
         </section>
 
         <section>
             <h2>Polecane książki</h2>
-            <table>
+            <table id="table_to_filter">
                     <tr>
                         <th fieldid="0">Lp</th>
                         <th fieldid="1">Autor</th>
