@@ -3,15 +3,15 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script src="JS files/script.js"></script>
+        <script src="../JS files/contact.js"></script>
         <link rel="icon" href="../images/book.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css_files/styles.css">
-        <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
-        <meta property="og:type"          content="website" />
-        <meta property="og:title"         content="Your Website Title" />
-        <meta property="og:description"   content="Your description" />
-        <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+        <meta property="og:url" content="https://www.your-domain.com/your-page.html"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Your Website Title"/>
+        <meta property="og:description" content="Your description"/>
+        <meta property="og:image" content="https://www.your-domain.com/path/image.jpg"/>
       
         <title>Kontakt</title>
     </head>
@@ -126,9 +126,9 @@
         </section>
 
         <section class="google_maps">
-            <div class="map">
-
-            </div>
+            <h3>Znajdź nas na mapie!</h3>
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>
         </section>
     </body>
 </html>
