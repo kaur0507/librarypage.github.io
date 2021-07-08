@@ -159,6 +159,9 @@ tr:nth-child(even){
     border:rgb(19, 90, 131);
     padding: 10px;
 }
+.summary_button{
+    width: 360px;
+}
 .searching_button{
     width: 120px;
 }

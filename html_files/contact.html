@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script src="../JS files/contact.js"></script>
+        <script src="../js_files/contact.js"></script>
         <link rel="icon" href="../images/book.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css_files/styles.css">
@@ -73,7 +73,7 @@
             <div class="form">
                 <h2>Formularz kontaktowy</h2>
 
-                <form name="contact_form">
+                <form name="contact_form" method="post" onsubmit="sumUp()">
                     <div class="contact_form_element">
                         <label for="name">Imię</label>
                     </div>
@@ -119,7 +119,7 @@
                         <textarea class="value" name="form_data" id="message" rows="7" cols="40"></textarea>
                     </div>
                     <div class="contact_form_element">
-                        <button class="summary_button" type="submit" onclick="sumUp()">Wyślij zgłoszenie</button>
+                        <button class="summary_button" type="submit">Wyślij zgłoszenie</button>
                     </div>
                 </form>
             </div>

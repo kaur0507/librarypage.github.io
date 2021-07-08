@@ -1,17 +1,3 @@
-function sumUp(){
-    var f = document.getElementsByName("form_data");
-    var pom = Array.from(f);
-    var v = [];
-    for(var i = 0; i < pom.length; i++){
-        if(pom[i].value==""){
-            alert("Uzupełnij wszystkie pola!");
-            return
-        }
-        v[i] = String(pom[i].value);
-    }
-    alert("Podane przez Ciebie dane to:\n"+v.join("\n"));
-}
-
 function confirmation(){
     if(!confirm("Czy jesteś pewien, że nie chcesz otrzymywać materiałów marketingowych?")){
 
