@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../js_files/contact.js"></script>
         <link rel="icon" href="../images/book.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,45 +79,48 @@
                         <label for="name">Imię</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="form_data" id="name">
+                        <input class="value" type="text" name="Name" id="name" minlength="0" maxlength="30">
                     </div>
                     <div class="contact_form_element">
                         <label for="surname">Nazwisko</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="form_data" id="surname">
+                        <input class="value" type="text" name="Surname" id="surname" minlength="0" maxlength="30">
                     </div>
                     <div class="contact_form_element">
                         <label for="street">Ulica</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="form_data" id="street">
+                        <input class="value" type="text" name="Street" id="street" pattern="(ul.|al.|pl.|os.)+ +[0-9a-zA-Z]{1,}+ +[0-9]{1,}" title="ul./al./os./pl. nazwa ulicy i numer">
                     </div>
                     <div class="contact_form_element">
                         <label for="city">Miasto</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="form_data" id="city">
+                        <input class="value" type="text" name="City" id="city">
                     </div>
                     <div class="contact_form_element">
-                        <label for="country_code">Kod pocztowy</label>
+                        <label for="country_code1">Kod pocztowy</label>
                     </div>
-                    <div class="contact_form_element">
-                        <div class="placeholder" data-placeholder="__-___">
-                            <input class="value" type="text" name="form_data" id="country_code" pattern="[0-9]{2}\-[0-9]{3}" title="Format xx-xxx">
-                        </div>     
+                    <div class="contact_form_element_zip">
+                        <input class="value_zip" type="text" name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
+                        -
+                        <input class="value_zip" type="text" name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
                     </div>
                     <div class="contact_form_element">
                         <label for="email">E-mail</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="email" name="form_data" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        <input class="value" type="email" name="E-mail" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
                     </div>
                     <div class="contact_form_element">
                         <label for="message">W jakiej sprawie do nas piszesz?</label>
                     </div>
                     <div class="contact_form_element">
-                        <textarea class="value" name="form_data" id="message" rows="7" cols="40"></textarea>
+                        <textarea class="value" name="Message" id="message" rows="7" cols="40"></textarea>
                     </div>
                     <div class="contact_form_element">
                         <button class="summary_button" type="submit">Wyślij zgłoszenie</button>
@@ -126,9 +130,41 @@
         </section>
 
         <section class="google_maps">
-            <h3>Znajdź nas na mapie!</h3>
-            <div id="map"></div>
-            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>
+            <h2 class="map_header">Znajdź nas na mapie!</h2>
+            <div class="map_style">
+                <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Rajska%201%2C%2031-124%20Krak%C3%B3w+(Biblioteka%20krak%C3%B3w)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <div class="map">
+                    <small class="to_map"></small>
+                </div>
+            </div>
         </section>
+        <script>
+            var one = document.getElementById('country_code1');
+            var two = document.getElementById('country_code2');
+            var three = document.getElementById('country_code3');
+            var four = document.getElementById('country_code4');
+            var five = document.getElementById('country_code5');
+
+            one.addEventListener('keypress', function(){
+                if (one.value.length >= 1){
+                    two.focus();
+                }
+            })
+            two.addEventListener('keypress', function(){
+                if (two.value.length >= 1){
+                    three.focus();
+                }
+            })
+            three.addEventListener('keypress', function(){
+                if (three.value.length >= 1){
+                    four.focus();
+                }
+            })
+            four.addEventListener('keypress', function(){
+                if (four.value.length >= 1){
+                    five.focus();
+                }
+            })
+        </script>
     </body>
 </html>

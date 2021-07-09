@@ -8,22 +8,15 @@ function confirmation(){
 }
 
 function validate(){
-    var mail = document.getElementById("email");
     var password = document.getElementById("password");
     var confirm_password = document.getElementById("password_validation");
-    var code = document.getElementById("country_code");
     var o1 = document.getElementById("op1").checked;
     var o2 = document.getElementById("op2").checked;
     var o3 = document.getElementById("op3").checked;
     var conf = document.getElementById("consent").checked;
     var acceptance = document.getElementById("accept").checked;
-    var reg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    var reg_2 = /^[0-9]{2}\-[0-9]{3}$/;
-    if(password.value != confirm_password.value || password.value==''){
+    if(password.value != confirm_password.value){
         confirm_password.setCustomValidity("Uzupełnij to pole poprawnie!");
-        return false;
-    } 
-    else if(!reg.test(mail.value) || !reg_2.test(code.value)){
         return false;
     }
     else if(o1==false && o2==false && o3==false){
@@ -40,37 +33,25 @@ function validate(){
 function register(){
     var f = document.getElementsByName("registration_data");
     var pom = Array.from(f);
+    /* var queryString = $('form').serialize();
+    var pom = queryString.replace(/=/g,": ");
+    var pom2 = pom.replace(/&/g,"\n");
+    var pom3 = pom2.replace(/%20/g," ");
+    var pom4 = pom3.replace(/%40/g,"@");
+    var zip_pom1 = pom4.replace(/\nZIP_div: /g,"-");
+    var zip_pom2 = zip_pom1.replace(/\nZIP: /g,""); */
+    
+    //alert(zip_pom2);
     if(validate()==false){
-        //for(var i = 0; i < pom.length; i++){
-            //if(pom[i].value==""){
+        for(var i = 0; i < pom.length; i++){
+            if(pom[i].value==""){
                 alert("Uzupełnij wszystkie pola poprawnie!");
                 return
-            //}
-        //}
+            }
+        }
     }
     else{
         alert("Udało się poprawnie zarejestrować!");
-    }
-}
-
-function search(){
-    var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementById("book_filter");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("table_to_filter");
-    tr = table.getElementsByTagName("tr");
-    for (i = 0; i < tr.length; i++) {
-        td1 = tr[i].getElementsByTagName("td")[0];
-        td2 = tr[i].getElementsByTagName("td")[1];
-        if(td1){
-            txtValue = td.textContent || td.innerText;
-            if(txtValue.toUpperCase().indexOf(filter) > -1){
-                tr[i].style.display = "";
-            } 
-            else{
-                tr[i].style.display = "none";
-            }
-        }       
     }
 }
 

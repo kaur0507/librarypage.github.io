@@ -135,8 +135,39 @@ tr:nth-child(even){
     vertical-align: middle;
     margin-left: 10px;
 }
-#map{
-    height: 100%;
+.google_maps{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+#gmap_canvas img{
+    max-width:none!important;
+    background:none!important
+}
+.map_header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.map_style{
+    width: 700px;
+    position: relative;
+}
+.map{
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: center;
+}
+.to_map{
+    line-height: 1.8;
+    font-size: 2px;
+    background: #fff;
 }
 .form{
     background-color: rgb(255, 255, 255);
@@ -150,6 +181,14 @@ tr:nth-child(even){
     border:rgb(255, 255, 255);
     padding: 5px;
     width: 350px;
+}
+.value_zip{
+    background-color: rgb(195, 233, 235);
+    font-size: 14px;
+    border-radius: 5px;
+    border:rgb(255, 255, 255);
+    padding: 5px;
+    width: 10px;
 }
 .summary_button, .searching_button{
     font-size: 14px;
@@ -240,17 +279,6 @@ a:hover{
 }
 .fb_icon:hover {
     opacity: 0.7;
-}
-.placeholder{
-    position: relative;
-}
-.placeholder::after{
-    position: absolute;
-    left: 4px;
-    top: 3px;
-    content: attr(data-placeholder);
-    pointer-events: none;
-    opacity: 0.3;
 }
 @media only screen and (max-width: 600px) {
     /*moving contact form under the contact data here*/

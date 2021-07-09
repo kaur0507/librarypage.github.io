@@ -3,9 +3,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="./images/book.png">
+        <link rel="icon" href="../images/book.png">
+        <script src="../js_files/books.js"></script>
         <link rel="stylesheet" href="../css_files/styles.css">
-        <title>Kontakt</title>
+        <title>Książki</title>
     </head>
 
     <body>
@@ -25,7 +26,7 @@
         
         <section class="search">
             <label>Wpisz wyszukiwaną frazę<br>
-                <input class="searching" placeholder=" Przeszukaj..." name="searching_area" id="book_filter" rows="3" cols="50">
+                <input class="searching" placeholder=" Przeszukaj..." name="searching_area" onkeyup="search()" id="book_filter">
             </label>
             <button class="searching_button" onclick="search()">Szukaj</button>
         </section>
@@ -124,7 +125,7 @@
         </section>
         <script>
             var tables = document.getElementsByTagName('tbody'); //takes elements from tbody tag
-            var table = tables[tables.length -1]; //takes cells from table
+            var table = tables[tables.length -1];
             var rows = table.rows; 
             for(var i = 0; i < rows.length; i++)
             {

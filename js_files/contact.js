@@ -1,24 +1,11 @@
 function sumUp(){
-    var f = document.getElementsByName("form_data");
-    var pom = Array.from(f);
-    var v = [];
-    for(var i = 0; i < pom.length; i++){
-        if(pom[i].value==""){
-            alert("Uzupełnij wszystkie pola!");
-            return
-        }
-        v[i] = String(pom[i].value);
-    }
-    alert("Podane przez Ciebie dane to:\n"+v.join("\n"));
-}
-
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: -34.397, lng: 150.644 },
-        zoom: 8,
-    });
-    const marker = new google.maps.Marker({
-        position: uluru,
-        map: map,
-    });
+    var queryString = $('form').serialize();
+    var pom = queryString.replace(/=/g,": ");
+    var pom2 = pom.replace(/&/g,"\n");
+    var pom3 = pom2.replace(/%20/g," ");
+    var pom4 = pom3.replace(/%40/g,"@");
+    var zip_pom1 = pom4.replace(/\nZIP_div: /g,"-");
+    var zip_pom2 = zip_pom1.replace(/\nZIP: /g,"");
+    
+    alert(zip_pom2);
 }
