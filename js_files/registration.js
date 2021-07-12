@@ -1,84 +1,58 @@
+//walidacja
+
+
 function confirmation(){
-    if(!confirm("Czy jesteś pewien, że nie chcesz otrzymywać materiałów marketingowych?")){
-
-    } 
-    else{
-        return;
-    }
-}
-
-function validate(){
-    let form  = document.getElementById('registration_form');
-
-    let name = form.elements[0];
-    let surname = form.elements[1];
-    let email = form.elements[2];
-    let password = form.elements[3];
-    let password_validation = form.elements[4];
-    let o1 = form.elements[12];
-    let o2 = form.elements[13];
-    let o3 = form.elements[14];
-    let conf = form.elements[15];
-    console.log(form);
-    console.log(o1);
-    console.log(conf);
-
-    // var password = document.getElementById("password");
-    // var confirm_password = document.getElementById("password_validation");
-    // var o1 = document.getElementById("op1").checked;
-    // var o2 = document.getElementById("op2").checked;
-    // var o3 = document.getElementById("op3").checked;
-    // var conf = document.getElementById("consent").checked;
-    if(password.value != confirm_password.value){
-        confirm_password.setCustomValidity("Uzupełnij to pole poprawnie!");
-        return false;
-    }
-    else if(o1==false && o2==false && o3==false){
-        return false;
-    }
-    else if(conf==false){
-        //confirmation();
+    var conf = document.getElementById("consent").checked;
+    if(conf==false){
+        return confirm("Czy jesteś pewien, że nie chcesz otrzymywać materiałów marketingowych?");
     }
     else{
         return true;
     }
 }
 
-function register(){
-    var f = document.getElementsByName("registration_data");
-    var pom = Array.from(f);
-    /* var queryString = $('form').serialize();
-    var pom = queryString.replace(/=/g,": ");
-    var pom2 = pom.replace(/&/g,"\n");
-    var pom3 = pom2.replace(/%20/g," ");
-    var pom4 = pom3.replace(/%40/g,"@");
-    var zip_pom1 = pom4.replace(/\nZIP_div: /g,"-");
-    var zip_pom2 = zip_pom1.replace(/\nZIP: /g,""); */
-    
-    //alert(zip_pom2);
-    if(validate()==false){
-        for(var i = 0; i < pom.length; i++){
-            if(pom[i].value==""){
-                alert("Uzupełnij wszystkie pola poprawnie!");
-                return
-            }
-        }
+function passwordValid(){
+    var password = document.getElementById("password");
+    var confirm_password = document.getElementById("password_validation");
+    if(password.value != confirm_password.value){
+        alert("Hasła muszą być takie same!");
+        return false;
     }
     else{
-        alert("Udało się poprawnie zarejestrować!");
+        return true;
     }
 }
 
+function radioChecked(){
 
+    var o1 = document.getElementById("op1").checked;
+    var o2 = document.getElementById("op2").checked;
+    var o3 = document.getElementById("op3").checked;
+    if(o1==false && o2==false && o3==false){
+        alert("Zaznacz płeć!");
+        return false;
+    }
+    else{
+        return true;
+    }
+}
 
+function validate(){
+    console.log(passwordValid());
+    console.log(radioChecked());
+    console.log(confirmation());
+    if(passwordValid()==false || radioChecked()==false || confirmation()==false){
+        alert("Spróbuj ponownie.")
+        return false;
+    }
+    else{
+        alert("Udało się poprawnie zarejestrować!");   
+        return true;
+    }
+    
+}
 
-
-//listy rozwijane
-
-
-
-
-
+//lista rozwijana
 
 
 
