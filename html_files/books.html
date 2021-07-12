@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <link rel="icon" href="../images/book.png">
         <script src="../js_files/books.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="../css_files/styles.css">
         <title>Książki</title>
     </head>
@@ -26,9 +27,9 @@
         
         <section class="search">
             <label>Wpisz wyszukiwaną frazę<br>
-                <input class="searching" placeholder=" Przeszukaj..." name="searching_area" onkeyup="search()" id="book_filter">
+                <input class="searching" placeholder=" Przeszukaj..." name="searching_area" id="book_filter">
             </label>
-            <button class="searching_button" onclick="search()">Szukaj</button>
+            <button class="searching_button">Szukaj</button>
         </section>
 
         <section>
@@ -133,6 +134,16 @@
                 td.appendChild(document.createTextNode(i + 1)); //adds numbers as "Lp" column
                 rows[i].insertBefore(td, rows[i].firstChild); //adds new element before the old one
             }
+        </script>
+        <script>
+            $(document).ready(function(){
+              $("#book_filter").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#table_to_filter tr").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
         </script>
     </body>
 </html>
