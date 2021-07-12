@@ -8,13 +8,27 @@ function confirmation(){
 }
 
 function validate(){
-    var password = document.getElementById("password");
-    var confirm_password = document.getElementById("password_validation");
-    var o1 = document.getElementById("op1").checked;
-    var o2 = document.getElementById("op2").checked;
-    var o3 = document.getElementById("op3").checked;
-    var conf = document.getElementById("consent").checked;
-    var acceptance = document.getElementById("accept").checked;
+    let form  = document.getElementById('registration_form');
+
+    let name = form.elements[0];
+    let surname = form.elements[1];
+    let email = form.elements[2];
+    let password = form.elements[3];
+    let password_validation = form.elements[4];
+    let o1 = form.elements[12];
+    let o2 = form.elements[13];
+    let o3 = form.elements[14];
+    let conf = form.elements[15];
+    console.log(form);
+    console.log(o1);
+    console.log(conf);
+
+    // var password = document.getElementById("password");
+    // var confirm_password = document.getElementById("password_validation");
+    // var o1 = document.getElementById("op1").checked;
+    // var o2 = document.getElementById("op2").checked;
+    // var o3 = document.getElementById("op3").checked;
+    // var conf = document.getElementById("consent").checked;
     if(password.value != confirm_password.value){
         confirm_password.setCustomValidity("Uzupełnij to pole poprawnie!");
         return false;
@@ -23,7 +37,7 @@ function validate(){
         return false;
     }
     else if(conf==false){
-        confirmation();
+        //confirmation();
     }
     else{
         return true;
@@ -54,6 +68,19 @@ function register(){
         alert("Udało się poprawnie zarejestrować!");
     }
 }
+
+
+
+
+
+//listy rozwijane
+
+
+
+
+
+
+
 
 function choice(listindex)
 {

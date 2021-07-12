@@ -29,36 +29,36 @@
             <p class="info">i cieszyć się dostępem do wszystkich książek w wersji online!</p>
             <h2>Rejestracja</h2>
 
-            <form name="registration_form" method="post" onsubmit="validate()">
+            <form name="registration_form" action="" method="post" onsubmit="validate()">
                 <div class="registration_form_element">
                     <label for="name">Imię</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="text" name="registration_data" id="name" minlength="0" maxlength="150">
+                    <input class="data" type="text" required name="registration_data" id="name" minlength="0" maxlength="150">
                 </div>
                 <div class="registration_form_element">
                     <label for="surname">Nazwisko</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="text" name="registration_data" id="surname" minlength="0" maxlength="150">
+                    <input class="data" type="text" required name="registration_data" id="surname" minlength="0" maxlength="150">
                 </div>
                 <div class="registration_form_element">
                     <label for="email">E-mail</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="email" name="registration_data" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input class="data" type="email" required name="registration_data" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 </div>
                 <div class="registration_form_element">
                     <label for="password">Hasło</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="password" name="registration_data" id="password" minlength="8">
+                    <input class="data" type="password" required name="registration_data" id="password" minlength="8">
                 </div>
                 <div class="registration_form_element">
                     <label for="password_validation">Potwierdź hasło</label>
                 </div>
                 <div>
-                    <input class="data" type="password" name="registration_data" id="password_validation" minlength="8">
+                    <input class="data" type="password" required name="registration_data" id="password_validation" minlength="8">
                 </div>
                 <div class="registration_form_element">
                     <label for="source">Województwo</label>
@@ -93,12 +93,12 @@
                     <label for="country_code1">Kod pocztowy</label>
                 </div>
                 <div class="registration_form_element_zip">
-                    <input class="value_zip" type="text" name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
                     -
-                    <input class="value_zip" type="text" name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
                 </div>
                 <div class="registration_form_element">
                     <label for="gender[]">Płeć</label>
@@ -119,7 +119,7 @@
                     <label> 
                         <input type="checkbox" name="check" id="accept" required> 
                         <a class=" tooltip" href="https://www.biblioteka.krakow.pl/wp-content/uploads/2019/10/Regulamin-korzystania-z-materia%C5%82%C3%B3w-bibliotecznych-oraz-us%C5%82ug-Biblioteki-Krak%C3%B3w_3.pdf">Akceptuję warunki regulaminu*
-                            <span class="tooltiptext">Kliknij aby otworzyć</span>
+                            <span class="tooltiptext">Kliknij, aby otworzyć</span>
                         </a>
                     </label>
                 <div class="registration_form_element">

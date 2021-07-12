@@ -8,11 +8,10 @@
         <link rel="icon" href="../images/book.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css_files/styles.css">
-        <meta property="og:url" content="https://www.your-domain.com/your-page.html"/>
+        <meta property="og:url" content="https://kaur0507.github.io/librarypage.github.io/html_files/contact.html"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Your Website Title"/>
         <meta property="og:description" content="Your description"/>
-        <meta property="og:image" content="https://www.your-domain.com/path/image.jpg"/>
       
         <title>Kontakt</title>
     </head>
@@ -74,53 +73,53 @@
             <div class="form">
                 <h2>Formularz kontaktowy</h2>
 
-                <form name="contact_form" method="post" onsubmit="sumUp()">
+                <form name="contact_form" action="" method="post" onsubmit="sumUp()">
                     <div class="contact_form_element">
                         <label for="name">Imię</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="Name" id="name" minlength="0" maxlength="30">
+                        <input class="value" type="text" required name="Name" id="name" minlength="0" maxlength="30">
                     </div>
                     <div class="contact_form_element">
                         <label for="surname">Nazwisko</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="Surname" id="surname" minlength="0" maxlength="30">
+                        <input class="value" type="text" required name="Surname" id="surname" minlength="0" maxlength="30">
                     </div>
                     <div class="contact_form_element">
                         <label for="street">Ulica</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="Street" id="street" pattern="(ul.|al.|pl.|os.)+ +[0-9a-zA-Z]{1,}+ +[0-9]{1,}" title="ul./al./os./pl. nazwa ulicy i numer">
+                        <input class="value" type="text" required name="Street" id="street" pattern="(ul.|al.|pl.|os.)+ +[0-9a-zA-Z]+ +[0-9]{1,}" title="ul./al./os./pl. nazwa ulicy i numer">
                     </div>
                     <div class="contact_form_element">
                         <label for="city">Miasto</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="text" name="City" id="city">
+                        <input class="value" type="text" required name="City" id="city">
                     </div>
                     <div class="contact_form_element">
                         <label for="country_code1">Kod pocztowy</label>
                     </div>
                     <div class="contact_form_element_zip">
-                        <input class="value_zip" type="text" name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
-                        <input class="value_zip" type="text" name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" required name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" required name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
                         -
-                        <input class="value_zip" type="text" name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
-                        <input class="value_zip" type="text" name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
-                        <input class="value_zip" type="text" name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" required name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" required name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
+                        <input class="value_zip" type="text" required name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
                     </div>
                     <div class="contact_form_element">
                         <label for="email">E-mail</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="email" name="E-mail" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+                        <input class="value" type="email" required name="E-mail" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
                     </div>
                     <div class="contact_form_element">
                         <label for="message">W jakiej sprawie do nas piszesz?</label>
                     </div>
                     <div class="contact_form_element">
-                        <textarea class="value" name="Message" id="message" rows="7" cols="40"></textarea>
+                        <textarea class="value" required name="Message" id="message" rows="7" cols="40"></textarea>
                     </div>
                     <div class="contact_form_element">
                         <button class="summary_button" type="submit">Wyślij zgłoszenie</button>
