@@ -1,5 +1,20 @@
 //walidacja
 
+function emptyVoi(){
+    var voivodeship = document.getElementById("source");
+    if(voivodeship.value=="Wybierz województwo"){
+        return false;
+    }
+    return true;
+}
+
+function emptyCit(){
+    var city = document.getElementById("from_source");
+    if(city.value==""){
+        return false;
+    }
+    return true;
+}
 
 function confirmation(){
     var conf = document.getElementById("consent").checked;
@@ -38,10 +53,7 @@ function radioChecked(){
 }
 
 function validate(){
-    console.log(passwordValid());
-    console.log(radioChecked());
-    console.log(confirmation());
-    if(passwordValid()==false || radioChecked()==false || confirmation()==false){
+    if(passwordValid()==false || radioChecked()==false || confirmation()==false || emptyCit()==false || emptyVoi()==false){
         alert("Spróbuj ponownie.")
         return false;
     }
