@@ -1,8 +1,19 @@
 //walidacja
 
+function zip(){
+    
+    var zip1 = String(document.getElementById("country_code1").value);
+    var zip2 = String(document.getElementById("country_code2").value);
+    var zip3 = String(document.getElementById("country_code3").value);
+    var zip4 = String(document.getElementById("country_code4").value);
+    var zip5 = String(document.getElementById("country_code5").value);
+    return zip1+zip2+"-"+zip3+zip4+zip5;
+}
+
 function emptyVoi(){
     var voivodeship = document.getElementById("source");
     if(voivodeship.value=="Wybierz województwo"){
+        alert("Wybierz województwo!");
         return false;
     }
     return true;
@@ -11,6 +22,7 @@ function emptyVoi(){
 function emptyCit(){
     var city = document.getElementById("from_source");
     if(city.value==""){
+        alert("Wybierz miasto!");
         return false;
     }
     return true;
@@ -53,12 +65,36 @@ function radioChecked(){
 }
 
 function validate(){
-    if(passwordValid()==false || radioChecked()==false || confirmation()==false || emptyCit()==false || emptyVoi()==false){
+    var name = document.getElementById("name");
+    var name = document.getElementById("name");
+
+    var zip_code = zip();
+
+    
+    if(name.value.length==150){
+        alert("Imię nie może mieć więcej niż 150 znaków!");
+    }
+
+    if(name.value.length==150){
+        alert("Nazwisko nie może mieć więcej niż 150 znaków!");
+    }
+
+    if(passwordValid()==false || radioChecked()==false || confirmation()==false || emptyVoi()==false || emptyCit()==false ){
         alert("Spróbuj ponownie.")
         return false;
     }
     else{
-        alert("Udało się poprawnie zarejestrować!");   
+        var queryString = $('registration').serialize();
+        var pom = queryString.replace(/=/g,": ");
+        var pom2 = pom.replace(/&/g,"\n");
+        var pom3 = pom2.replace(/%20/g," ");
+        var pom4 = pom3.replace(/%40/g,"@");
+        var zip_pom1 = pom4.replace(/\nZIP_div: /g,"-");
+        var zip_pom2 = zip_pom1.replace(/\nZIP: /g,"");
+
+        console.log(zip_pom2);
+        
+        alert("Udało się poprawnie zarejestrować!\n"+zip_pom2); 
         return true;
     }
     

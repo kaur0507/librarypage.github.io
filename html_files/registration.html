@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="../images/book.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../js_files/registration.js"></script>
         <link rel="stylesheet" href="../css_files/styles.css">
         <title>Rejestracja</title>
@@ -52,7 +53,7 @@
                     <label for="password">Hasło</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="password" required name="registration_data" id="password" minlength="8">
+                    <input class="data" type="password" required name="registration_data" id="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\.\+\*\?\^\$\(\)\[\]\{\}\|\\]).{8,}$">
                 </div>
                 <div class="registration_form_element">
                     <label for="password_validation">Potwierdź hasło</label>

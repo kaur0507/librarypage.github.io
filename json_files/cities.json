@@ -1,0 +1,2888 @@
+[{
+    "dolnośląskie":[
+    {
+       "name": "Wrocław"
+    },
+    {
+       "name": "Wałbrzych"
+    },
+    {
+       "name": "Legnica"
+    },
+    {
+       "name": "Jelenia Góra"
+    },
+    {
+       "name": "Bardo"
+    },
+    {
+       "name": "Bielawa"
+    },
+    {
+       "name": "Bierutów"
+    },
+    {
+       "name": "Bogatynia"
+    },
+    {
+       "name": "Boguszów-Gorce"
+    },
+    {
+       "name": "Bolesławiec"
+    },
+    {
+       "name": "Bolków"
+    },
+    {
+       "name": "Brzeg Dolny"
+    },
+    {
+       "name": "Bystrzyca Kłodzka"
+    },
+    {
+       "name": "Chocianów"
+    },
+    {
+       "name": "Chojnów"
+    },
+    {
+       "name": "Duszniki-Zdrój"
+    },
+    {
+       "name": "Dzierżoniów"
+    },
+    {
+       "name": "Gryfów Śląski"
+    },
+    {
+       "name": "Góra"
+    },
+    {
+       "name": "Głogów"
+    },
+    {
+       "name": "Głuszyca"
+    },
+    {
+       "name": "Jawor"
+    },
+    {
+       "name": "Jaworzyna Śląska"
+    },
+    {
+       "name": "Jedlina-Zdrój"
+    },
+    {
+       "name": "Jelcz-Laskowice"
+    },
+    {
+       "name": "Kamieniec Ząbkowicki"
+    },
+    {
+       "name": "Kamienna Góra"
+    },
+    {
+       "name": "Karpacz"
+    },
+    {
+       "name": "Kąty Wrocławskie"
+    },
+    {
+       "name": "Kowary"
+    },
+    {
+       "name": "Kudowa-Zdrój"
+    },
+    {
+       "name": "Kłodzko"
+    },
+    {
+       "name": "Leśna"
+    },
+    {
+       "name": "Lubawka"
+    },
+    {
+       "name": "Lubań"
+    },
+    {
+       "name": "Lubin"
+    },
+    {
+       "name": "Lubomierz"
+    },
+    {
+       "name": "Lwówek Śląski"
+    },
+    {
+       "name": "Lądek-Zdrój"
+    },
+    {
+       "name": "Mieroszów"
+    },
+    {
+       "name": "Milicz"
+    },
+    {
+       "name": "Mirsk"
+    },
+    {
+       "name": "Międzybórz"
+    },
+    {
+       "name": "Międzylesie"
+    },
+    {
+       "name": "Niemcza"
+    },
+    {
+       "name": "Nowa Ruda"
+    },
+    {
+       "name": "Nowogrodziec"
+    },
+    {
+       "name": "Oborniki Śląskie"
+    },
+    {
+       "name": "Oleśnica"
+    },
+    {
+       "name": "Olszyna"
+    },
+    {
+       "name": "Oława"
+    },
+    {
+       "name": "Piechowice"
+    },
+    {
+       "name": "Pieszyce"
+    },
+    {
+       "name": "Pieńsk"
+    },
+    {
+       "name": "Piława Górna"
+    },
+    {
+       "name": "Polanica-Zdrój"
+    },
+    {
+       "name": "Polkowice"
+    },
+    {
+       "name": "Prochowice"
+    },
+    {
+       "name": "Prusice"
+    },
+    {
+       "name": "Przemków"
+    },
+    {
+       "name": "Radków"
+    },
+    {
+       "name": "Siechnice"
+    },
+    {
+       "name": "Sobótka"
+    },
+    {
+       "name": "Stronie Śląskie"
+    },
+    {
+       "name": "Strzegom"
+    },
+    {
+       "name": "Strzelin"
+    },
+    {
+       "name": "Syców"
+    },
+    {
+       "name": "Szczawno-Zdrój"
+    },
+    {
+       "name": "Szczytna"
+    },
+    {
+       "name": "Szklarska Poręba"
+    },
+    {
+       "name": "Ścinawa"
+    },
+    {
+       "name": "Środa Śląska"
+    },
+    {
+       "name": "Świdnica"
+    },
+    {
+       "name": "Świebodzice"
+    },
+    {
+       "name": "Świeradów-Zdrój"
+    },
+    {
+       "name": "Świerzawa"
+    },
+    {
+       "name": "Trzebnica"
+    },
+    {
+       "name": "Twardogóra"
+    },
+    {
+       "name": "Wiązów"
+    },
+    {
+       "name": "Wleń"
+    },
+    {
+       "name": "Wojcieszów"
+    },
+    {
+       "name": "Wołów"
+    },
+    {
+       "name": "Wąsosz"
+    },
+    {
+       "name": "Węgliniec"
+    },
+    {
+       "name": "Zawidów"
+    },
+    {
+       "name": "Zgorzelec"
+    },
+    {
+       "name": "Ziębice"
+    },
+    {
+       "name": "Ząbkowice Śląskie"
+    },
+    {
+       "name": "Złotoryja"
+    },
+    {
+       "name": "Złoty Stok"
+    },
+    {
+       "name": "Żarów"
+    },
+    {
+       "name": "Żmigród"
+    }
+    ],
+
+    "kujawsko-pomorskie":[
+    {
+        "name": "Aleksandrów Kujawski"
+    },
+    {
+        "name": "Barcin"
+    },
+    {
+        "name": "Brodnica"
+    },
+    {
+        "name": "Brześć Kujawski"
+    },
+    {
+        "name": "Bydgoszcz"
+    },
+    {
+        "name": "Chełmno"
+    },
+    {
+        "name": "Chełmża"
+    },
+    {
+        "name": "Chodecz"
+    },
+    {
+        "name": "Ciechocinek"
+    },
+    {
+        "name": "Dobrzyń nad Wisłą"
+    },
+    {
+        "name": "Gniewkowo"
+    },
+    {
+        "name": "Golub-Dobrzyń"
+    },
+    {
+        "name": "Górzno"
+    },
+    {
+        "name": "Grudziądz"
+    },
+    {
+        "name": "Inowrocław"
+    },
+    {
+        "name": "Izbica Kujawska"
+    },
+    {
+        "name": "Jabłonowo Pomorskie"
+    },
+    {
+        "name": "Janikowo"
+    },
+    {
+        "name": "Janowiec Wielkopolski"
+    },
+    {
+        "name": "Kamień Krajeński"
+    },
+    {
+        "name": "Kcynia"
+    },
+    {
+        "name": "Koronowo"
+    },
+    {
+        "name": "Kowal"
+    },
+    {
+        "name": "Kowalewo Pomorskie"
+    },
+    {
+        "name": "Kruszwica"
+    },
+    {
+        "name": "Lipno"
+    },
+    {
+        "name": "Lubień Kujawski"
+    },
+    {
+        "name": "Lubraniec"
+    },
+    {
+        "name": "Łabiszyn"
+    },
+    {
+        "name": "Łasin"
+    },
+    {
+        "name": "Mogilno"
+    },
+    {
+        "name": "Mrocza"
+    },
+    {
+        "name": "Nakło nad Notecią"
+    },
+    {
+        "name": "Nieszawa"
+    },
+    {
+        "name": "Nowe"
+    },
+    {
+        "name": "Pakość"
+    },
+    {
+        "name": "Piotrków Kujawski"
+    },
+    {
+        "name": "Radziejów"
+    },
+    {
+        "name": "Radzyń Chełmiński"
+    },
+    {
+        "name": "Rypin"
+    },
+    {
+        "name": "Sępólno Krajeńskie"
+    },
+    {
+        "name": "Skępe"
+    },
+    {
+        "name": "Solec Kujawski"
+    },
+    {
+        "name": "Strzelno"
+    },
+    {
+        "name": "Szubin"
+    },
+    {
+        "name": "Świecie"
+    },
+    {
+        "name": "Toruń"
+    },
+    {
+        "name": "Tuchola"
+    },
+    {
+        "name": "Wąbrzeźno"
+    },
+    {
+        "name": "Więcbork"
+    },
+    {
+        "name": "Włocławek"
+    },
+    {
+        "name": "Żnin"
+    }
+    ],
+    "lubelskie":[
+    {
+        "name": "Annopol"
+    },
+    {
+        "name": "Bełżyce"
+    },
+    {
+        "name": "Biała Podlaska"
+    },
+    {
+        "name": "Biłgoraj"
+    },
+    {
+        "name": "Bychawa"
+    },
+    {
+        "name": "Chełm"
+    },
+    {
+        "name": "Dęblin"
+    },
+    {
+        "name": "Frampol"
+    },
+    {
+        "name": "Goraj"
+    },
+    {
+        "name": "Hrubieszów"
+    },
+    {
+        "name": "Janów Lubelski"
+    },
+    {
+        "name": "Józefów"
+    },
+    {
+        "name": "Józefów nad Wisłą"
+    },
+    {
+        "name": "Kamionka"
+    },
+    {
+        "name": "Kazimierz Dolny"
+    },
+    {
+        "name": "Kock"
+    },
+    {
+        "name": "Krasnobród"
+    },
+    {
+        "name": "Krasnystaw"
+    },
+    {
+        "name": "Kraśnik"
+    },
+    {
+        "name": "Lubartów"
+    },
+    {
+        "name": "Lublin"
+    },
+    {
+        "name": "Lubycza Królewska"
+    },
+    {
+        "name": "Łaszczów"
+    },
+    {
+        "name": "Łęczna"
+    },
+    {
+        "name": "Łuków"
+    },
+    {
+        "name": "Międzyrzec Podlaski"
+    },
+    {
+        "name": "Modliborzyce"
+    },
+    {
+        "name": "Nałęczów"
+    },
+    {
+        "name": "Opole Lubelskie"
+    },
+    {
+        "name": "Ostrów Lubelski"
+    },
+    {
+        "name": "Parczew"
+    },
+    {
+        "name": "Piaski"
+    },
+    {
+        "name": "Poniatowa"
+    },
+    {
+        "name": "Puławy"
+    },
+    {
+        "name": "Radzyń Podlaski"
+    },
+    {
+        "name": "Rejowiec"
+    },
+    {
+        "name": "Rejowiec Fabryczny"
+    },
+    {
+        "name": "Ryki"
+    },
+    {
+        "name": "Siedliszcze"
+    },
+    {
+        "name": "Stoczek Łukowski"
+    },
+    {
+        "name": "Szczebrzeszyn"
+    },
+    {
+        "name": "Świdnik"
+    },
+    {
+        "name": "Tarnogród"
+    },
+    {
+        "name": "Terespol"
+    },
+    {
+        "name": "Tomaszów Lubelski"
+    },
+    {
+        "name": "Tyszowce"
+    },
+    {
+        "name": "Urzędów"
+    },
+    {
+        "name": "Włodawa"
+    },
+    {
+        "name": "Zamość"
+    },
+    {
+        "name": "Zwierzyniec"
+    }
+    ],
+    "lubuskie":[
+    {
+        "name": "Babimost"
+    },
+    {
+        "name": "Bytom Odrzański"
+    },
+    {
+        "name": "Cybinka"
+    },
+    {
+        "name": "Czerwieńsk"
+    },
+    {
+        "name": "Dobiegniew"
+    },
+    {
+        "name": "Drezdenko"
+    },
+    {
+        "name": "Gorzów Wielkopolski"
+    },
+    {
+        "name": "Gozdnica"
+    },
+    {
+        "name": "Gubin"
+    },
+    {
+        "name": "Iłowa"
+    },
+    {
+        "name": "Jasień"
+    },
+    {
+        "name": "Kargowa"
+    },
+    {
+        "name": "Kostrzyn nad Odrą"
+    },
+    {
+        "name": "Kożuchów"
+    },
+    {
+        "name": "Krosno Odrzańskie"
+    },
+    {
+        "name": "Lubniewice"
+    },
+    {
+        "name": "Lubsko"
+    },
+    {
+        "name": "Łęknica"
+    },
+    {
+        "name": "Małomice"
+    },
+    {
+        "name": "Międzyrzecz"
+    },
+    {
+        "name": "Nowa Sól"
+    },
+    {
+        "name": "Nowe Miasteczko"
+    },
+    {
+        "name": "Nowogród Bobrzański"
+    },
+    {
+        "name": "Ośno Lubuskie"
+    },
+    {
+        "name": "Otyń"
+    },
+    {
+        "name": "Rzepin"
+    },
+    {
+        "name": "Skwierzyna"
+    },
+    {
+        "name": "Sława"
+    },
+    {
+        "name": "Słubice"
+    },
+    {
+        "name": "Strzelce Krajeńskie"
+    },
+    {
+        "name": "Sulechów"
+    },
+    {
+        "name": "Sulęcin"
+    },
+    {
+        "name": "Szlichtyngowa"
+    },
+    {
+        "name": "Szprotawa"
+    },
+    {
+        "name": "Świebodzin"
+    },
+    {
+        "name": "Torzym"
+    },
+    {
+        "name": "Trzciel"
+    },
+    {
+        "name": "Witnica"
+    },
+    {
+        "name": "Wschowa"
+    },
+    {
+        "name": "Zbąszynek"
+    },
+    {
+        "name": "Zielona Góra"
+    },
+    {
+        "name": "Żagań"
+    },
+    {
+        "name": "Żary"
+    }
+    ],
+    "łódzkie":[
+    {
+        "name": "Aleksandrów Łódzki"
+    },
+    {
+        "name": "Bełchatów"
+    },
+    {
+        "name": "Biała Rawska"
+    },
+    {
+        "name": "Błaszki"
+    },
+    {
+        "name": "Brzeziny"
+    },
+    {
+        "name": "Drzewica"
+    },
+    {
+        "name": "Działoszyn"
+    },
+    {
+        "name": "Głowno"
+    },
+    {
+        "name": "Lututów"
+    },
+    {
+        "name": "Kamieńsk"
+    },
+    {
+        "name": "Koluszki"
+    },
+    {
+        "name": "Konstantynów Łódzki"
+    },
+    {
+        "name": "Krośniewice"
+    },
+    {
+        "name": "Kutno"
+    },
+    {
+        "name": "Łask"
+    },
+    {
+        "name": "Łęczyca"
+    },
+    {
+        "name": "Łowicz"
+    },
+    {
+        "name": "Łódź"
+    },
+    {
+        "name": "Opoczno"
+    },
+    {
+        "name": "Ozorków"
+    },
+    {
+        "name": "Pabianice"
+    },
+    {
+        "name": "Pajęczno"
+    },
+    {
+        "name": "Piątek"
+    },
+    {
+        "name": "Piotrków Trybunalski"
+    },
+    {
+        "name": "Poddębice"
+    },
+    {
+        "name": "Przedbórz"
+    },
+    {
+        "name": "Radomsko"
+    },
+    {
+        "name": "Rawa Mazowiecka"
+    },
+    {
+        "name": "Rzgów"
+    },
+    {
+        "name": "Sieradz"
+    },
+    {
+        "name": "Skierniewice"
+    },
+    {
+        "name": "Stryków"
+    },
+    {
+        "name": "Sulejów"
+    },
+    {
+        "name": "Szadek"
+    },
+    {
+        "name": "Tomaszów Mazowiecki"
+    },
+    {
+        "name": "Tuszyn"
+    },
+    {
+        "name": "Uniejów"
+    },
+    {
+        "name": "Warta"
+    },
+    {
+        "name": "Wieluń"
+    },
+    {
+        "name": "Wieruszów"
+    },
+    {
+        "name": "Wolbórz"
+    },
+    {
+        "name": "Zduńska Wola"
+    },
+    {
+        "name": "Zelów"
+    },
+    {
+        "name": "Zgierz"
+    },
+    {
+        "name": "Złoczew"
+    },
+    {
+        "name": "Żychlin"
+    }
+    ],
+    "małopolskie":[
+    {
+        "name": "Alwernia"
+    },
+    {
+        "name": "Andrychów"
+    },
+    {
+        "name": "Biecz"
+    },
+    {
+        "name": "Bobowa"
+    },
+    {
+        "name": "Bochnia"
+    },
+    {
+        "name": "Brzesko"
+    },
+    {
+        "name": "Brzeszcze"
+    },
+    {
+        "name": "Bukowno"
+    },
+    {
+        "name": "Chełmek"
+    },
+    {
+        "name": "Chrzanów"
+    },
+    {
+        "name": "Ciężkowice"
+    },
+    {
+        "name": "Czchów"
+    },
+    {
+        "name": "Dąbrowa Tarnowska"
+    },
+    {
+        "name": "Dobczyce"
+    },
+    {
+        "name": "Gorlice"
+    },
+    {
+        "name": "Grybów"
+    },
+    {
+        "name": "Jordanów"
+    },
+    {
+        "name": "Kalwaria Zebrzydowska"
+    },
+    {
+        "name": "Kęty"
+    },
+    {
+        "name": "Koszyce"
+    },
+    {
+        "name": "Kraków"
+    },
+    {
+        "name": "Krynica-Zdrój"
+    },
+    {
+        "name": "Krzeszowice"
+    },
+    {
+        "name": "Libiąż"
+    },
+    {
+        "name": "Limanowa"
+    },
+    {
+        "name": "Maków Podhalański"
+    },
+    {
+        "name": "Miechów"
+    },
+    {
+        "name": "Mszana Dolna"
+    },
+    {
+        "name": "Muszyna"
+    },
+    {
+        "name": "Myślenice"
+    },
+    {
+        "name": "Niepołomice"
+    },
+    {
+        "name": "Nowe Brzesko"
+    },
+    {
+        "name": "Nowy Sącz"
+    },
+    {
+        "name": "Nowy Targ"
+    },
+    {
+        "name": "Nowy Wiśnicz"
+    },
+    {
+        "name": "Olkusz"
+    },
+    {
+        "name": "Oświęcim"
+    },
+    {
+        "name": "Piwniczna-Zdrój i Łomnica Zdrój"
+    },
+    {
+        "name": "Proszowice"
+    },
+    {
+        "name": "Rabka-Zdrój"
+    },
+    {
+        "name": "Radłów"
+    },
+    {
+        "name": "Ryglice"
+    },
+    {
+        "name": "Skała"
+    },
+    {
+        "name": "Skawina"
+    },
+    {
+        "name": "Słomniki"
+    },
+    {
+        "name": "Stary Sącz"
+    },
+    {
+        "name": "Sucha Beskidzka"
+    },
+    {
+        "name": "Sułkowice"
+    },
+    {
+        "name": "Szczawnica"
+    },
+    {
+        "name": "Szczucin"
+    },
+    {
+        "name": "Świątniki Górne"
+    },
+    {
+        "name": "Tarnów"
+    },
+    {
+        "name": "Trzebinia"
+    },
+    {
+        "name": "Tuchów"
+    },
+    {
+        "name": "Wadowice"
+    },
+    {
+        "name": "Wieliczka"
+    },
+    {
+        "name": "Wojnicz"
+    },
+    {
+        "name": "Wolbrom"
+    },
+    {
+        "name": "Zakliczyn"
+    },
+    {
+        "name": "Zakopane"
+    },
+    {
+        "name": "Zator"
+    },
+    {
+        "name": "Żabno"
+    }
+    ],
+    "mazowieckie":[
+    {
+        "name": "Białobrzegi"
+    },
+    {
+        "name": "Bieżuń"
+    },
+    {
+        "name": "Błonie"
+    },
+    {
+        "name": "Brok"
+    },
+    {
+        "name": "Brwinów"
+    },
+    {
+        "name": "Chorzele"
+    },
+    {
+        "name": "Ciechanów"
+    },
+    {
+        "name": "Czerwińsk nad Wisłą"
+    },
+    {
+        "name": "Drobin"
+    },
+    {
+        "name": "Garwolin"
+    },
+    {
+        "name": "Gąbin"
+    },
+    {
+        "name": "Glinojeck"
+    },
+    {
+        "name": "Gostynin"
+    },
+    {
+        "name": "Góra Kalwaria"
+    },
+    {
+        "name": "Grodzisk Mazowiecki"
+    },
+    {
+        "name": "Grójec"
+    },
+    {
+        "name": "Halinów"
+    },
+    {
+        "name": "Iłża"
+    },
+    {
+        "name": "Józefów"
+    },
+    {
+        "name": "Kałuszyn"
+    },
+    {
+        "name": "Karczew"
+    },
+    {
+        "name": "Kobyłka"
+    },
+    {
+        "name": "Konstancin-Jeziorna"
+    },
+    {
+        "name": "Kosów Lacki"
+    },
+    {
+        "name": "Kozienice"
+    },
+    {
+        "name": "Legionowo"
+    },
+    {
+        "name": "Lipsko"
+    },
+    {
+        "name": "Lubowidz"
+    },
+    {
+        "name": "Łaskarzew"
+    },
+    {
+        "name": "Łochów"
+    },
+    {
+        "name": "Łomianki"
+    },
+    {
+        "name": "Łosice"
+    },
+    {
+        "name": "Maków Mazowiecki"
+    },
+    {
+        "name": "Marki"
+    },
+    {
+        "name": "Milanówek"
+    },
+    {
+        "name": "Mińsk Mazowiecki"
+    },
+    {
+        "name": "Mława"
+    },
+    {
+        "name": "Mogielnica"
+    },
+    {
+        "name": "Mordy"
+    },
+    {
+        "name": "Mrozy"
+    },
+    {
+        "name": "Mszczonów"
+    },
+    {
+        "name": "Myszyniec"
+    },
+    {
+        "name": "Nasielsk"
+    },
+    {
+        "name": "Nowe Miasto nad Pilicą"
+    },
+    {
+        "name": "Nowy Dwór Mazowiecki"
+    },
+    {
+        "name": "Ostrołęka"
+    },
+    {
+        "name": "Ostrów Mazowiecka"
+    },
+    {
+        "name": "Otwock"
+    },
+    {
+        "name": "Ożarów Mazowiecki"
+    },
+    {
+        "name": "Piaseczno"
+    },
+    {
+        "name": "Piastów"
+    },
+    {
+        "name": "Pilawa"
+    },
+    {
+        "name": "Pionki"
+    },
+    {
+        "name": "Płock"
+    },
+    {
+        "name": "Płońsk"
+    },
+    {
+        "name": "Podkowa Leśna"
+    },
+    {
+        "name": "Pruszków"
+    },
+    {
+        "name": "Przasnysz"
+    },
+    {
+        "name": "Przysucha"
+    },
+    {
+        "name": "Pułtusk"
+    },
+    {
+        "name": "Raciąż"
+    },
+    {
+        "name": "Radom"
+    },
+    {
+        "name": "Radzymin"
+    },
+    {
+        "name": "Różan"
+    },
+    {
+        "name": "Sanniki"
+    },
+    {
+        "name": "Serock"
+    },
+    {
+        "name": "Siedlce"
+    },
+    {
+        "name": "Sierpc"
+    },
+    {
+        "name": "Skaryszew"
+    },
+    {
+        "name": "Sochaczew"
+    },
+    {
+        "name": "Sochocin"
+    },
+    {
+        "name": "Sokołów Podlaski"
+    },
+    {
+        "name": "Solec nad Wisłą"
+    },
+    {
+        "name": "Sulejówek"
+    },
+    {
+        "name": "Szydłowiec"
+    },
+    {
+        "name": "Tarczyn"
+    },
+    {
+        "name": "Tłuszcz"
+    },
+    {
+        "name": "Warka"
+    },
+    {
+        "name": "Warszawa"
+    },
+    {
+        "name": "Węgrów"
+    },
+    {
+        "name": "Wiskitki"
+    },
+    {
+        "name": "Wołomin"
+    },
+    {
+        "name": "Wyszków"
+    },
+    {
+        "name": "Wyszogród"
+    },
+    {
+        "name": "Wyśmierzyce"
+    },
+    {
+        "name": "Zakroczym"
+    },
+    {
+        "name": "Ząbki"
+    },
+    {
+        "name": "Zielonka"
+    },
+    {
+        "name": "Zwoleń"
+    },
+    {
+        "name": "Żelechów"
+    },
+    {
+        "name": "Żuromin"
+    },
+    {
+        "name": "Żyrardów"
+    }
+    ],
+    "opolskie":[
+    {
+        "name": "Baborów"
+    },
+    {
+        "name": "Biała"
+    },
+    {
+        "name": "Brzeg"
+    },
+    {
+        "name": "Byczyna"
+    },
+    {
+        "name": "Dobrodzień"
+    },
+    {
+        "name": "Głogówek"
+    },
+    {
+        "name": "Głubczyce"
+    },
+    {
+        "name": "Głuchołazy"
+    },
+    {
+        "name": "Gogolin"
+    },
+    {
+        "name": "Gorzów Śląski"
+    },
+    {
+        "name": "Grodków"
+    },
+    {
+        "name": "Kędzierzyn-Koźle"
+    },
+    {
+        "name": "Kietrz"
+    },
+    {
+        "name": "Kluczbork"
+    },
+    {
+        "name": "Kolonowskie"
+    },
+    {
+        "name": "Korfantów"
+    },
+    {
+        "name": "Krapkowice"
+    },
+    {
+        "name": "Leśnica"
+    },
+    {
+        "name": "Lewin Brzeski"
+    },
+    {
+        "name": "Namysłów"
+    },
+    {
+        "name": "Niemodlin"
+    },
+    {
+        "name": "Nysa"
+    },
+    {
+        "name": "Olesno"
+    },
+    {
+        "name": "Opole"
+    },
+    {
+        "name": "Otmuchów"
+    },
+    {
+        "name": "Ozimek"
+    },
+    {
+        "name": "Paczków"
+    },
+    {
+        "name": "Praszka"
+    },
+    {
+        "name": "Prószków"
+    },
+    {
+        "name": "Prudnik"
+    },
+    {
+        "name": "Strzelce Opolskie"
+    },
+    {
+        "name": "Tułowice"
+    },
+    {
+        "name": "Ujazd"
+    },
+    {
+        "name": "Wołczyn"
+    },
+    {
+        "name": "Zawadzkie"
+    },
+    {
+        "name": "Zdzieszowice"
+    }
+    ],
+    "podkarpackie":[
+    {
+        "name": "Baranów Sandomierski"
+    },
+    {
+        "name": "Błażowa"
+    },
+    {
+        "name": "Boguchwała"
+    },
+    {
+        "name": "Brzostek"
+    },
+    {
+        "name": "Brzozów"
+    },
+    {
+        "name": "Cieszanów"
+    },
+    {
+        "name": "Dębica"
+    },
+    {
+        "name": "Dubiecko"
+    },
+    {
+        "name": "Dukla"
+    },
+    {
+        "name": "Dynów"
+    },
+    {
+        "name": "Głogów Małopolski"
+    },
+    {
+        "name": "Iwonicz-Zdrój"
+    },
+    {
+        "name": "Jarosław"
+    },
+    {
+        "name": "Jasło"
+    },
+    {
+        "name": "Jedlicze"
+    },
+    {
+        "name": "Kańczuga"
+    },
+    {
+        "name": "Kolbuszowa"
+    },
+    {
+        "name": "Kołaczyce"
+    },
+    {
+        "name": "Krosno"
+    },
+    {
+        "name": "Lesko"
+    },
+    {
+        "name": "Leżajsk"
+    },
+    {
+        "name": "Lubaczów"
+    },
+    {
+        "name": "Łańcut"
+    },
+    {
+        "name": "Mielec"
+    },
+    {
+        "name": "Narol"
+    },
+    {
+        "name": "Nisko"
+    },
+    {
+        "name": "Nowa Dęba"
+    },
+    {
+        "name": "Nowa Sarzyna"
+    },
+    {
+        "name": "Oleszyce"
+    },
+    {
+        "name": "Pilzno"
+    },
+    {
+        "name": "Pruchnik"
+    },
+    {
+        "name": "Przecław"
+    },
+    {
+        "name": "Przemyśl"
+    },
+    {
+        "name": "Przeworsk"
+    },
+    {
+        "name": "Radomyśl Wielki"
+    },
+    {
+        "name": "Radymno"
+    },
+    {
+        "name": "Ropczyce"
+    },
+    {
+        "name": "Rudnik nad Sanem"
+    },
+    {
+        "name": "Rymanów"
+    },
+    {
+        "name": "Rzeszów"
+    },
+    {
+        "name": "Sanok"
+    },
+    {
+        "name": "Sędziszów Małopolski"
+    },
+    {
+        "name": "Sieniawa"
+    },
+    {
+        "name": "Sokołów Małopolski"
+    },
+    {
+        "name": "Stalowa Wola"
+    },
+    {
+        "name": "Strzyżów"
+    },
+    {
+        "name": "Tarnobrzeg"
+    },
+    {
+        "name": "Tyczyn"
+    },
+    {
+        "name": "Ulanów"
+    },
+    {
+        "name": "Ustrzyki Dolne"
+    },
+    {
+        "name": "Zagórz"
+    },
+    {
+        "name": "Zaklików"
+    }
+    ],
+    "podlaskie":[
+    {
+        "name": "Augustów"
+    },
+    {
+        "name": "Białystok"
+    },
+    {
+        "name": "Bielsk Podlaski"
+    },
+    {
+        "name": "Brańsk"
+    },
+    {
+        "name": "Choroszcz"
+    },
+    {
+        "name": "Ciechanowiec"
+    },
+    {
+        "name": "Czarna Białostocka"
+    },
+    {
+        "name": "Czyżew"
+    },
+    {
+        "name": "Dąbrowa Białostocka"
+    },
+    {
+        "name": "Drohiczyn"
+    },
+    {
+        "name": "Goniądz"
+    },
+    {
+        "name": "Grajewo"
+    },
+    {
+        "name": "Hajnówka"
+    },
+    {
+        "name": "Jedwabne"
+    },
+    {
+        "name": "Kleszczele"
+    },
+    {
+        "name": "Knyszyn"
+    },
+    {
+        "name": "Kolno"
+    },
+    {
+        "name": "Krynki"
+    },
+    {
+        "name": "Lipsk"
+    },
+    {
+        "name": "Łapy"
+    },
+    {
+        "name": "Łomża"
+    },
+    {
+        "name": "Michałowo"
+    },
+    {
+        "name": "Mońki"
+    },
+    {
+        "name": "Nowogród"
+    },
+    {
+        "name": "Rajgród"
+    },
+    {
+        "name": "Sejny"
+    },
+    {
+        "name": "Siemiatycze"
+    },
+    {
+        "name": "Sokółka"
+    },
+    {
+        "name": "Stawiski"
+    },
+    {
+        "name": "Suchowola"
+    },
+    {
+        "name": "Supraśl"
+    },
+    {
+        "name": "Suraż"
+    },
+    {
+        "name": "Suwałki"
+    },
+    {
+        "name": "Szczuczyn"
+    },
+    {
+        "name": "Szepietowo"
+    },
+    {
+        "name": "Tykocin"
+    },
+    {
+        "name": "Wasilków"
+    },
+    {
+        "name": "Wysokie Mazowieckie"
+    },
+    {
+        "name": "Zabłudów"
+    },
+    {
+        "name": "Zambrów"
+    }
+    ],
+    "pomorskie":[
+    {
+        "name": "Brusy"
+    },
+    {
+        "name": "Bytów"
+    },
+    {
+        "name": "Chojnice"
+    },
+    {
+        "name": "Czarna Woda"
+    },
+    {
+        "name": "Czarne"
+    },
+    {
+        "name": "Czersk"
+    },
+    {
+        "name": "Człuchów"
+    },
+    {
+        "name": "Debrzno"
+    },
+    {
+        "name": "Dzierzgoń"
+    },
+    {
+        "name": "Gdańsk"
+    },
+    {
+        "name": "Gdynia"
+    },
+    {
+        "name": "Gniew"
+    },
+    {
+        "name": "Hel"
+    },
+    {
+        "name": "Jastarnia"
+    },
+    {
+        "name": "Kartuzy"
+    },
+    {
+        "name": "Kępice"
+    },
+    {
+        "name": "Kościerzyna"
+    },
+    {
+        "name": "Krynica Morska"
+    },
+    {
+        "name": "Kwidzyn"
+    },
+    {
+        "name": "Lębork"
+    },
+    {
+        "name": "Łeba"
+    },
+    {
+        "name": "Malbork"
+    },
+    {
+        "name": "Miastko"
+    },
+    {
+        "name": "Nowy Dwór Gdański"
+    },
+    {
+        "name": "Nowy Staw"
+    },
+    {
+        "name": "Pelplin"
+    },
+    {
+        "name": "Prabuty"
+    },
+    {
+        "name": "Pruszcz Gdański"
+    },
+    {
+        "name": "Puck"
+    },
+    {
+        "name": "Reda"
+    },
+    {
+        "name": "Rumia"
+    },
+    {
+        "name": "Skarszewy"
+    },
+    {
+        "name": "Skórcz"
+    },
+    {
+        "name": "Słupsk"
+    },
+    {
+        "name": "Sopot"
+    },
+    {
+        "name": "Starogard Gdański"
+    },
+    {
+        "name": "Sztum"
+    },
+    {
+        "name": "Tczew"
+    },
+    {
+        "name": "Ustka"
+    },
+    {
+        "name": "Wejherowo"
+    },
+    {
+        "name": "Władysławowo"
+    },
+    {
+        "name": "Żukowo"
+    }
+    ],
+    "śląskie":[
+    {
+        "name": "Będzin"
+    },
+    {
+        "name": "Bielsko-Biała"
+    },
+    {
+        "name": "Bieruń"
+    },
+    {
+        "name": "Blachownia"
+    },
+    {
+        "name": "Bytom"
+    },
+    {
+        "name": "Chorzów"
+    },
+    {
+        "name": "Cieszyn"
+    },
+    {
+        "name": "Czechowice-Dziedzice"
+    },
+    {
+        "name": "Czeladź"
+    },
+    {
+        "name": "Czerwionka-Leszczyny"
+    },
+    {
+        "name": "Częstochowa"
+    },
+    {
+        "name": "Dąbrowa Górnicza"
+    },
+    {
+        "name": "Gliwice"
+    },
+    {
+        "name": "Imielin"
+    },
+    {
+        "name": "Jastrzębie-Zdrój"
+    },
+    {
+        "name": "Jaworzno"
+    },
+    {
+        "name": "Kalety"
+    },
+    {
+        "name": "Katowice"
+    },
+    {
+        "name": "Kłobuck"
+    },
+    {
+        "name": "Knurów"
+    },
+    {
+        "name": "Koniecpol"
+    },
+    {
+        "name": "Koziegłowy"
+    },
+    {
+        "name": "Krzanowice"
+    },
+    {
+        "name": "Krzepice"
+    },
+    {
+        "name": "Kuźnia Raciborska"
+    },
+    {
+        "name": "Lędziny"
+    },
+    {
+        "name": "Lubliniec"
+    },
+    {
+        "name": "Łaziska Górne"
+    },
+    {
+        "name": "Łazy"
+    },
+    {
+        "name": "Miasteczko Śląskie"
+    },
+    {
+        "name": "Mikołów"
+    },
+    {
+        "name": "Mysłowice"
+    },
+    {
+        "name": "Myszków"
+    },
+    {
+        "name": "Ogrodzieniec"
+    },
+    {
+        "name": "Orzesze"
+    },
+    {
+        "name": "Piekary Śląskie"
+    },
+    {
+        "name": "Pilica"
+    },
+    {
+        "name": "Poręba"
+    },
+    {
+        "name": "Pszczyna"
+    },
+    {
+        "name": "Pszów"
+    },
+    {
+        "name": "Pyskowice"
+    },
+    {
+        "name": "Racibórz"
+    },
+    {
+        "name": "Radlin"
+    },
+    {
+        "name": "Radzionków"
+    },
+    {
+        "name": "Ruda Śląska"
+    },
+    {
+        "name": "Rybnik"
+    },
+    {
+        "name": "Rydułtowy"
+    },
+    {
+        "name": "Siemianowice Śląskie"
+    },
+    {
+        "name": "Siewierz"
+    },
+    {
+        "name": "Skoczów"
+    },
+    {
+        "name": "Sławków"
+    },
+    {
+        "name": "Sosnowiec"
+    },
+    {
+        "name": "Sośnicowice"
+    },
+    {
+        "name": "Strumień"
+    },
+    {
+        "name": "Szczekociny"
+    },
+    {
+        "name": "Szczyrk"
+    },
+    {
+        "name": "Świętochłowice"
+    },
+    {
+        "name": "Tarnowskie Góry"
+    },
+    {
+        "name": "Toszek"
+    },
+    {
+        "name": "Tychy"
+    },
+    {
+        "name": "Ustroń"
+    },
+    {
+        "name": "Wilamowice"
+    },
+    {
+        "name": "Wisła"
+    },
+    {
+        "name": "Wodzisław Śląski"
+    },
+    {
+        "name": "Wojkowice"
+    },
+    {
+        "name": "Woźniki"
+    },
+    {
+        "name": "Zabrze"
+    },
+    {
+        "name": "Zawiercie"
+    },
+    {
+        "name": "Żarki"
+    },
+    {
+        "name": "Żory"
+    },
+    {
+        "name": "Żywiec"
+    }
+    ],
+    "świętokrzyskie":[
+    {
+        "name": "Bodzentyn"
+    },
+    {
+        "name": "Busko-Zdrój"
+    },
+    {
+        "name": "Chęciny"
+    },
+    {
+        "name": "Chmielnik"
+    },
+    {
+        "name": "Ćmielów"
+    },
+    {
+        "name": "Daleszyce"
+    },
+    {
+        "name": "Działoszyce"
+    },
+    {
+        "name": "Jędrzejów"
+    },
+    {
+        "name": "Kazimierza Wielka"
+    },
+    {
+        "name": "Kielce"
+    },
+    {
+        "name": "Klimontów"
+    },
+    {
+        "name": "Końskie"
+    },
+    {
+        "name": "Koprzywnica"
+    },
+    {
+        "name": "Kunów"
+    },
+    {
+        "name": "Łagów"
+    },
+    {
+        "name": "Małogoszcz"
+    },
+    {
+        "name": "Morawica"
+    },
+    {
+        "name": "Nowa Słupia"
+    },
+    {
+        "name": "Nowy Korczyn"
+    },
+    {
+        "name": "Oleśnica"
+    },
+    {
+        "name": "Opatowiec"
+    },
+    {
+        "name": "Opatów"
+    },
+    {
+        "name": "Osiek"
+    },
+    {
+        "name": "Ostrowiec Świętokrzyski"
+    },
+    {
+        "name": "Ożarów"
+    },
+    {
+        "name": "Pacanów"
+    },
+    {
+        "name": "Pierzchnica"
+    },
+    {
+        "name": "Pińczów"
+    },
+    {
+        "name": "Połaniec"
+    },
+    {
+        "name": "Radoszyce"
+    },
+    {
+        "name": "Sandomierz"
+    },
+    {
+        "name": "Sędziszów"
+    },
+    {
+        "name": "Skalbmierz"
+    },
+    {
+        "name": "Skarżysko-Kamienna"
+    },
+    {
+        "name": "Starachowice"
+    },
+    {
+        "name": "Staszów"
+    },
+    {
+        "name": "Stąporków"
+    },
+    {
+        "name": "Stopnica"
+    },
+    {
+        "name": "Suchedniów"
+    },
+    {
+        "name": "Szydłów"
+    },
+    {
+        "name": "Wąchock"
+    },
+    {
+        "name": "Wiślica"
+    },
+    {
+        "name": "Włoszczowa"
+    },
+    {
+        "name": "Wodzisław"
+    },
+    {
+        "name": "Zawichost"
+    }
+    ],
+    "warmińsko-mazurskie":[
+    {
+        "name": "Barczewo"
+    },
+    {
+        "name": "Bartoszyce"
+    },
+    {
+        "name": "Biała Piska"
+    },
+    {
+        "name": "Biskupiec"
+    },
+    {
+        "name": "Bisztynek"
+    },
+    {
+        "name": "Braniewo"
+    },
+    {
+        "name": "Dobre Miasto"
+    },
+    {
+        "name": "Działdowo"
+    },
+    {
+        "name": "Elbląg"
+    },
+    {
+        "name": "Ełk"
+    },
+    {
+        "name": "Frombork"
+    },
+    {
+        "name": "Giżycko"
+    },
+    {
+        "name": "Gołdap"
+    },
+    {
+        "name": "Górowo Iławeckie"
+    },
+    {
+        "name": "Iława"
+    },
+    {
+        "name": "Jeziorany"
+    },
+    {
+        "name": "Kętrzyn"
+    },
+    {
+        "name": "Kisielice"
+    },
+    {
+        "name": "Korsze"
+    },
+    {
+        "name": "Lidzbark"
+    },
+    {
+        "name": "Lidzbark Warmiński"
+    },
+    {
+        "name": "Lubawa"
+    },
+    {
+        "name": "Mikołajki"
+    },
+    {
+        "name": "Miłakowo"
+    },
+    {
+        "name": "Miłomłyn"
+    },
+    {
+        "name": "Młynary"
+    },
+    {
+        "name": "Morąg"
+    },
+    {
+        "name": "Mrągowo"
+    } ,
+    {
+        "name": "Nidzica"
+    },
+    {
+        "name": "Olecko"
+    },
+    {
+        "name": "Olsztyn"
+    },
+    {
+        "name": "Olsztynek"
+    },
+    {
+        "name": "Orneta"
+    },
+    {
+        "name": "Orzysz"
+    },
+    {
+        "name": "Ostróda"
+    },
+    {
+        "name": "Pasłęk"
+    },
+    {
+        "name": "Pasym"
+    },
+    {
+        "name": "Pieniężno"
+    },
+    {
+        "name": "Pisz"
+    },
+    {
+        "name": "Reszel"
+    },
+    {
+        "name": "Ruciane-Nida"
+    },
+    {
+        "name": "Ryn"
+    },
+    {
+        "name": "Sępopol"
+    },
+    {
+        "name": "Susz"
+    },
+    {
+        "name": "Szczytno"
+    },
+    {
+        "name": "Tolkmicko"
+    },
+    {
+        "name": "Węgorzewo"
+    },
+    {
+        "name": "Wielbark"
+    },
+    {
+        "name": "Zalewo"
+    }    
+    ],
+    "wielkopolskie":[
+    {
+        "name": "Bojanowo"
+    },
+    {
+        "name": "Borek Wielkopolski"
+    },
+    {
+        "name": "Budzyń"
+    },
+    {
+        "name": "Buk"
+    },
+    {
+        "name": "Chocz"
+    },
+    {
+        "name": "Chodzież"
+    },
+    {
+        "name": "Czarnków"
+    },
+    {
+        "name": "Czempiń"
+    },
+    {
+        "name": "Czerniejewo"
+    },
+    {
+        "name": "Dąbie"
+    },
+    {
+        "name": "Dobra"
+    },
+    {
+        "name": "Dobrzyca"
+    },
+    {
+        "name": "Dolsk"
+    },
+    {
+        "name": "Gniezno"
+    },
+    {
+        "name": "Golina"
+    },
+    {
+        "name": "Gołańcz"
+    },
+    {
+        "name": "Gostyń"
+    },
+    {
+        "name": "Grabów nad Prosną"
+    },
+    {
+        "name": "Jaraczewo"
+    },
+    {
+        "name": "Jarocin"
+    },
+    {
+        "name": "Jastrowie"
+    },
+    {
+        "name": "Jutrosin"
+    },
+    {
+        "name": "Kalisz"
+    },
+    {
+        "name": "Kępno"
+    },
+    {
+        "name": "Kleczew"
+    },
+    {
+        "name": "Kłecko"
+    },
+    {
+        "name": "Kłodawa"
+    },
+    {
+        "name": "Kobylin"
+    },
+    {
+        "name": "Koło"
+    },
+    {
+        "name": "Konin"
+    },
+    {
+        "name": "Kostrzyn"
+    },
+    {
+        "name": "Kościan"
+    },
+    {
+        "name": "Koźmin Wielkopolski"
+    },
+    {
+        "name": "Koźminek"
+    },
+    {
+        "name": "Kórnik"
+    },
+    {
+        "name": "Krajenka"
+    },
+    {
+        "name": "Krobia"
+    },
+    {
+        "name": "Krotoszyn"
+    },
+    {
+        "name": "Krzywiń"
+    },
+    {
+        "name": "Krzyż Wielkopolski"
+    },
+    {
+        "name": "Książ Wielkopolski"
+    },
+    {
+        "name": "Leszno"
+    },
+    {
+        "name": "Luboń"
+    },
+    {
+        "name": "Lwówek"
+    },
+    {
+        "name": "Łobżenica"
+    },
+    {
+        "name": "Margonin"
+    },
+    {
+        "name": "Miejska Górka"
+    },
+    {
+        "name": "Międzychód"
+    },
+    {
+        "name": "Mikstat"
+    },
+    {
+        "name": "Miłosław"
+    },
+    {
+        "name": "Mosina"
+    },
+    {
+        "name": "Murowana Goślina"
+    },
+    {
+        "name": "Nekla"
+    },
+    {
+        "name": "Nowe Skalmierzyce"
+    },
+    {
+        "name": "Nowy Tomyśl"
+    },
+    {
+        "name": "Oborniki"
+    },
+    {
+        "name": "Obrzycko"
+    },
+    {
+        "name": "Odolanów"
+    },
+    {
+        "name": "Okonek"
+    },
+    {
+        "name": "Opalenica"
+    },
+    {
+        "name": "Opatówek"
+    },
+    {
+        "name": "Osieczna"
+    },
+    {
+        "name": "Ostroróg"
+    },
+    {
+        "name": "Ostrów Wielkopolski"
+    },
+    {
+        "name": "Ostrzeszów"
+    },
+    {
+        "name": "Piła"
+    },
+    {
+        "name": "Pleszew"
+    },
+    {
+        "name": "Pniewy"
+    },
+    {
+        "name": "Pobiedziska"
+    },
+    {
+        "name": "Pogorzela"
+    },
+    {
+        "name": "Poniec"
+    },
+    {
+        "name": "Poznań"
+    },
+    {
+        "name": "Przedecz"
+    },
+    {
+        "name": "Puszczykowo"
+    },
+    {
+        "name": "Pyzdry"
+    },
+    {
+        "name": "Rakoniewice"
+    },
+    {
+        "name": "Raszków"
+    },
+    {
+        "name": "Rawicz"
+    },
+    {
+        "name": "Rogoźno"
+    },
+    {
+        "name": "Rychwał"
+    },
+    {
+        "name": "Rydzyna"
+    },
+    {
+        "name": "Sieraków"
+    },
+    {
+        "name": "Skoki"
+    },
+    {
+        "name": "Słupca"
+    },
+    {
+        "name": "Sompolno"
+    },
+    {
+        "name": "Stawiszyn"
+    },
+    {
+        "name": "Stęszew"
+    },
+    {
+        "name": "Sulmierzyce"
+    },
+    {
+        "name": "Swarzędz"
+    },
+    {
+        "name": "Szamocin"
+    },
+    {
+        "name": "Szamotuły"
+    },
+    {
+        "name": "Ślesin"
+    },
+    {
+        "name": "Śmigiel"
+    },
+    {
+        "name": "Śrem"
+    },
+    {
+        "name": "Środa Wielkopolska"
+    },
+    {
+        "name": "Trzcianka"
+    },
+    {
+        "name": "Trzemeszno"
+    },
+    {
+        "name": "Tuliszków"
+    },
+    {
+        "name": "Turek"
+    },
+    {
+        "name": "Ujście"
+    },
+    {
+        "name": "Wągrowiec"
+    },
+    {
+        "name": "Wieleń"
+    },
+    {
+        "name": "Witkowo"
+    },
+    {
+        "name": "Wolsztyn"
+    },
+    {
+        "name": "Wronki"
+    },
+    {
+        "name": "Września"
+    },
+    {
+        "name": "Wyrzysk"
+    },
+    {
+        "name": "Wysoka"
+    },
+    {
+        "name": "Zagórów"
+    },
+    {
+        "name": "Zbąszyń"
+    },
+    {
+        "name": "Zduny"
+    },
+    {
+        "name": "Złotów"
+    },
+    {
+        "name": "Żerków"
+    }
+    ],
+    "zachodniopomorskie":[
+    {
+        "name": "Barlinek"
+    },
+    {
+        "name": "Barwice"
+    },
+    {
+        "name": "Białogard"
+    },
+    {
+        "name": "Biały Bór"
+    },
+    {
+        "name": "Bobolice"
+    },
+    {
+        "name": "Borne Sulinowo"
+    },
+    {
+        "name": "Cedynia"
+    },
+    {
+        "name": "Chociwel"
+    },
+    {
+        "name": "Chojna"
+    },
+    {
+        "name": "Choszczno"
+    },
+    {
+        "name": "Czaplinek"
+    },
+    {
+        "name": "Człopa"
+    },
+    {
+        "name": "Darłowo"
+    },
+    {
+        "name": "Dębno"
+    },
+    {
+        "name": "Dobra"
+    },
+    {
+        "name": "Dobrzany"
+    },
+    {
+        "name": "Drawno"
+    },
+    {
+        "name": "Drawsko Pomorskie"
+    },
+    {
+        "name": "Dziwnów"
+    },
+    {
+        "name": "Golczewo"
+    },
+    {
+        "name": "Goleniów"
+    },
+    {
+        "name": "Gościno"
+    },
+    {
+        "name": "Gryfice"
+    },
+    {
+        "name": "Gryfino"
+    },
+    {
+        "name": "Ińsko"
+    },
+    {
+        "name": "Kalisz Pomorski"
+    },
+    {
+        "name": "Kamień Pomorski"
+    },
+    {
+        "name": "Karlino"
+    },
+    {
+        "name": "Kołobrzeg"
+    },
+    {
+        "name": "Koszalin"
+    },
+    {
+        "name": "Lipiany"
+    },
+    {
+        "name": "Łobez"
+    },
+    {
+        "name": "Maszewo"
+    },
+    {
+        "name": "Mielno"
+    },
+    {
+        "name": "Mieszkowice"
+    },
+    {
+        "name": "Międzyzdroje"
+    },
+    {
+        "name": "Mirosławiec"
+    },
+    {
+        "name": "Moryń"
+    },
+    {
+        "name": "Myślibórz"
+    },
+    {
+        "name": "Nowe Warpno"
+    },
+    {
+        "name": "Nowogard"
+    },
+    {
+        "name": "Pełczyce"
+    },
+    {
+        "name": "Płoty"
+    },
+    {
+        "name": "Polanów"
+    },
+    {
+        "name": "Police"
+    },
+    {
+        "name": "Połczyn-Zdrój"
+    },
+    {
+        "name": "Pyrzyce"
+    },
+    {
+        "name": "Recz"
+    },
+    {
+        "name": "Resko"
+    },
+    {
+        "name": "Sianów"
+    },
+    {
+        "name": "Sławno"
+    },
+    {
+        "name": "Stargard"
+    },
+    {
+        "name": "Stepnica"
+    },
+    {
+        "name": "Suchań"
+    },
+    {
+        "name": "Szczecin"
+    },
+    {
+        "name": "Szczecinek"
+    },
+    {
+        "name": "Świdwin"
+    },
+    {
+        "name": "Świnoujście"
+    },
+    {
+        "name": "Trzcińsko-Zdrój"
+    },
+    {
+        "name": "Trzebiatów"
+    },
+    {
+        "name": "Tuczno"
+    },
+    {
+        "name": "Tychowo"
+    },
+    {
+        "name": "Wałcz"
+    },
+    {
+        "name": "Węgorzyno"
+    },
+    {
+        "name": "Wolin"
+    },
+    {
+        "name": "Złocieniec"
+    }
+    ]
+}]
