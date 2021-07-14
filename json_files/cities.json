@@ -1,5 +1,13 @@
-[{
+{
+    "Wybierz województwo":[
+    {
+        "name": "Wybierz miasto"
+    }
+    ],
     "dolnośląskie":[
+    {
+        "name": ""
+    },
     {
        "name": "Wrocław"
     },
@@ -280,6 +288,9 @@
 
     "kujawsko-pomorskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Aleksandrów Kujawski"
     },
     {
@@ -438,6 +449,9 @@
     ],
     "lubelskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Annopol"
     },
     {
@@ -590,6 +604,9 @@
     ],
     "lubuskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Babimost"
     },
     {
@@ -720,6 +737,9 @@
     }
     ],
     "łódzkie":[
+    {
+        "name": ""
+    },
     {
         "name": "Aleksandrów Łódzki"
     },
@@ -860,6 +880,9 @@
     }
     ],
     "małopolskie":[
+    {
+        "name": ""
+    },
     {
         "name": "Alwernia"
     },
@@ -1048,6 +1071,9 @@
     }
     ],
     "mazowieckie":[
+    {
+        "name": ""
+    },
     {
         "name": "Białobrzegi"
     },
@@ -1327,6 +1353,9 @@
     ],
     "opolskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Baborów"
     },
     {
@@ -1436,6 +1465,9 @@
     }
     ],
     "podkarpackie":[
+    {
+        "name": ""
+    },
     {
         "name": "Baranów Sandomierski"
     },
@@ -1595,6 +1627,9 @@
     ],
     "podlaskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Augustów"
     },
     {
@@ -1716,6 +1751,9 @@
     }
     ],
     "pomorskie":[
+    {
+        "name": ""
+    },
     {
         "name": "Brusy"
     },
@@ -1844,6 +1882,9 @@
     }
     ],
     "śląskie":[
+    {
+        "name": ""
+    },
     {
         "name": "Będzin"
     },
@@ -2060,6 +2101,9 @@
     ],
     "świętokrzyskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Bodzentyn"
     },
     {
@@ -2196,6 +2240,9 @@
     }
     ],
     "warmińsko-mazurskie":[
+    {
+        "name": ""
+    },
     {
         "name": "Barczewo"
     },
@@ -2345,6 +2392,9 @@
     }    
     ],
     "wielkopolskie":[
+    {
+        "name": ""
+    },
     {
         "name": "Bojanowo"
     },
@@ -2687,6 +2737,9 @@
     ],
     "zachodniopomorskie":[
     {
+        "name": ""
+    },
+    {
         "name": "Barlinek"
     },
     {
@@ -2885,4 +2938,4 @@
         "name": "Złocieniec"
     }
     ]
-}]
+}

@@ -30,7 +30,7 @@
             <p class="info">i cieszyć się dostępem do wszystkich książek w wersji online!</p>
             <h2>Rejestracja</h2>
 
-            <form name="registration_form" action="" method="post" onsubmit="return validate()">
+            <form name="registration_form" action="cities.json" method="post" onsubmit="return validate()">
                 <div class="registration_form_element">
                     <label for="name">Imię</label>
                 </div>
@@ -65,7 +65,7 @@
                     <label for="source">Województwo</label>
                 </div>
                 <div class="registration_form_element">
-                    <select class="data_v" id="source" name="voivodeship" onchange="choice(this.options[this.selectedIndex].value);">
+                    <select class="data_v" id="source" name="voivodeship" onchange="choice(this.options[this.selectedIndex].value)">
                         <option>Wybierz województwo</option>
                         <option>dolnośląskie</option>
                         <option>kujawsko-pomorskie</option>
@@ -86,9 +86,9 @@
                     </select>
                 </div>
                 <div class="registration_form_element">
-                    <script>
-                        document.write('<label for="from_source">Miasto<br><select class="data_v" name="city" id="from_source"><option value="">Wybierz miasto</option></select></label><br>')
-                    </script>
+                    <label for="from_source">Miasto<br>
+                        <select class="data_v" name="city" id="from_source"></select>
+                    </label><br>
                 </div>
                 <div class="registration_form_element">
                     <label for="country_code1">Kod pocztowy</label>
