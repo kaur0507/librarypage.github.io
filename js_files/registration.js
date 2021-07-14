@@ -1,14 +1,14 @@
 //lista rozwijana
 
 function choice(number){
-    console.log(number);
+    //console.log(number);
     $.ajax({
         url: '../json_files/cities.json',
         dataType: 'json',
         type: 'get',
         cache: false,
         success: function(data){
-            console.log(data);
+            //console.log(data);
         
             var options = '';
                 for (var j = 0; j<data[number].length; j++){
@@ -88,16 +88,15 @@ function radioChecked(){
 
 function validate(){
     var name = document.getElementById("name");
-    var name = document.getElementById("name");
+    var surname = document.getElementById("surname");
 
     var zip_code = zip();
 
-    
     if(name.value.length==150){
         alert("Imię nie może mieć więcej niż 150 znaków!");
     }
 
-    if(name.value.length==150){
+    if(surname.value.length==150){
         alert("Nazwisko nie może mieć więcej niż 150 znaków!");
     }
 
@@ -107,6 +106,7 @@ function validate(){
     }
     else{
         var queryString = $('registration').serialize();
+        console.log(queryString);
         var pom = queryString.replace(/=/g,": ");
         var pom2 = pom.replace(/&/g,"\n");
         var pom3 = pom2.replace(/%20/g," ");
