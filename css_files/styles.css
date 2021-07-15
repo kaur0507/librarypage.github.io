@@ -280,6 +280,24 @@ a:hover{
 .fb_icon:hover {
     opacity: 0.7;
 }
-@media only screen and (max-width: 600px) {
-    /*moving contact form under the contact data here*/
-  }
+
+.registration_form_element.success input{
+    border-style: double;
+    border-color: #104727;
+}
+.registration_form_element.error input{
+    border-style: double;
+    border-color: #ff4530;
+}
+.registration_form_element.success i.fa.fa-check-circle{
+    visibility: visible;
+    color: #104727;
+}
+.registration_form_element.success i.fa.fa-exclamation{
+    visibility: visible;
+    color: #ff4530;
+}
+.registration_form_element.error small{
+    visibility: visible;
+    color: #ff4530;
+}
