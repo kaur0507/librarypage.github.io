@@ -102,22 +102,19 @@ function validate(){
 
     if(passwordValid()==false || radioChecked()==false || confirmation()==false || emptyVoi()==false || emptyCit()==false ){
         alert("Spróbuj ponownie.")
-        return false;
     }
     else{
-        var queryString = $('registration').serialize();
+        var queryString = $('#register').serialize();
         console.log(queryString);
-        var pom = queryString.replace(/=/g,": ");
-        var pom2 = pom.replace(/&/g,"\n");
-        var pom3 = pom2.replace(/%20/g," ");
-        var pom4 = pom3.replace(/%40/g,"@");
-        var zip_pom1 = pom4.replace(/\nZIP_div: /g,"-");
-        var zip_pom2 = zip_pom1.replace(/\nZIP: /g,"");
-
-        console.log(zip_pom2);
-        
-        alert("Udało się poprawnie zarejestrować!\n"+zip_pom2); 
+        //alert(queryString);
+        alert("Udało się poprawnie zarejestrować!"); 
         return true;
     }
+
+
+    // $( "form" ).on( "submit", function( event ) {
+    //     event.preventDefault();
+    //     console.log( $( this ).serialize() );
+    //   });
     
 }
