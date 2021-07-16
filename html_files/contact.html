@@ -144,22 +144,22 @@
             var four = document.getElementById('country_code4');
             var five = document.getElementById('country_code5');
 
-            one.addEventListener('keypress', function(){
+            one.addEventListener('keydown', function(){
                 if (one.value.length >= 1){
                     two.focus();
                 }
             })
-            two.addEventListener('keypress', function(){
+            two.addEventListener('keydown', function(){
                 if (two.value.length >= 1){
                     three.focus();
                 }
             })
-            three.addEventListener('keypress', function(){
+            three.addEventListener('keydown', function(){
                 if (three.value.length >= 1){
                     four.focus();
                 }
             })
-            four.addEventListener('keypress', function(){
+            four.addEventListener('keydown', function(){
                 if (four.value.length >= 1){
                     five.focus();
                 }

@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <link rel="icon" href="../images/book.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src="../js_files/registration.js"></script>
         <link rel="stylesheet" href="../css_files/styles.css">
         <title>Rejestracja</title>
@@ -36,37 +37,55 @@
                     <label for="name">Imię</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="text" required name="registration_data" id="name" minlength="0" maxlength="150">
+                    <input class="data" type="text" required name="registration_data" id="name" onchange="nameClick()" minlength="0" maxlength="150">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="surname">Nazwisko</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="text" required name="registration_data" id="surname" minlength="0" maxlength="150">
+                    <input class="data" type="text" required name="registration_data" id="surname" onchange="surnameClick()" minlength="0" maxlength="150">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+                    
                 </div>
                 <div class="registration_form_element">
                     <label for="email">E-mail</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="email" required name="registration_data" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input class="data" type="email" required name="registration_data" id="email" onchange="emailClick()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="password">Hasło</label>
                 </div>
                 <div class="registration_form_element">
-                    <input class="data" type="password" required name="registration_data" id="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\.\+\*\?\^\$\(\)\[\]\{\}\|\\]).{8,}$">
+                    <input class="data" type="password" required name="registration_data" id="password" onchange="passwordClick()" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\.\+\*\?\^\$\(\)\[\]\{\}\|\\]).{8,}$">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="password_validation">Potwierdź hasło</label>
                 </div>
-                <div>
-                    <input class="data" type="password" required name="registration_data" id="password_validation" minlength="8">
+                <div class="registration_form_element">
+                    <input class="data" type="password" required name="registration_data" id="password_validation" onchange="validPasswordClick()" minlength="8">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="source">Województwo</label>
                 </div>
                 <div class="registration_form_element">
-                    <select class="data_v" id="source" name="voivodeship" onchange="choice(this.options[this.selectedIndex].value)">
+                    <select class="data_v" id="source" name="voivodeship" onchange="choice(this.options[this.selectedIndex].value); voivodeClick()">
                         <option>Wybierz województwo</option>
                         <option>dolnośląskie</option>
                         <option>kujawsko-pomorskie</option>
@@ -85,45 +104,56 @@
                         <option>wielkopolskie</option>
                         <option>zachodniopomorskie</option>
                     </select>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="from_source">Miasto<br>
-                        <select class="data_v" name="city" id="from_source"></select>
+                        <select class="data_v" name="city" id="from_source" onchange="cityClick()"></select>
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
+                        <small></small>
                     </label><br>
                 </div>
                 <div class="registration_form_element">
                     <label for="country_code1">Kod pocztowy</label>
                 </div>
-                <div class="registration_form_element_zip">
-                    <input class="value_zip" type="text" required name="ZIP code" id="country_code1" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" required name="ZIP" id="country_code2" maxlength="1" pattern="[0-9]{1}">
-                    -
-                    <input class="value_zip" type="text" required name="ZIP_div" id="country_code3" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" required name="ZIP" id="country_code4" maxlength="1" pattern="[0-9]{1}">
-                    <input class="value_zip" type="text" required name="ZIP" id="country_code5" maxlength="1" pattern="[0-9]{1}">
+                <div class="registration_form_element">
+                    <input class="value_zip" type="text" required name="ZIP code" id="country_code1" onchange="zipClick()" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code2" onchange="zipClick()" maxlength="1" pattern="[0-9]{1}">
+                    <a>-</a>
+                    <input class="value_zip" type="text" required name="ZIP_div" id="country_code3" onchange="zipClick()" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code4" onchange="zipClick()" maxlength="1" pattern="[0-9]{1}">
+                    <input class="value_zip" type="text" required name="ZIP" id="country_code5" onchange="zipClick()" maxlength="1" pattern="[0-9]{1}">
+                
+                    <input type="hidden" class="hidden_zip" id="hidden_zip">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
                 <div class="registration_form_element">
                     <label for="gender">Płeć</label>
                 </div>
                 <div class="registration_form_element">
-                    <input type="radio" name="gender" value="option1" id="op1"> 
+                    <input type="radio" name="gender" value="kobieta" id="op1"> 
                     <label>Pani</label>
+                    <input type="radio" name="gender" value="mężczyzna" id="op2">
+                    <label>Pan</label>
+                    <input type="radio" name="gender" value="inna" id="op3">
+                    <label>inna</label>
+                    
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <small></small>
                 </div>
+                <br>
                 <div class="registration_form_element">
-                    <input type="radio" name="gender" value="option2" id="op2">
-                    <label> Pan</label>
+                    <input type="checkbox" name="check" id="accept" required> 
+                    <a class="tooltip" href="https://www.biblioteka.krakow.pl/wp-content/uploads/2019/10/Regulamin-korzystania-z-materia%C5%82%C3%B3w-bibliotecznych-oraz-us%C5%82ug-Biblioteki-Krak%C3%B3w_3.pdf">Akceptuję warunki regulaminu*
+                        <span class="tooltiptext">Kliknij, aby otworzyć</span>
+                    </a>
                 </div>
-                <div class="registration_form_element">
-                    <input type="radio" name="gender" value="option3" id="op3">
-                    <label> inna</label>
-                </div>
-                <div class="registration_form_element">
-                    <label> 
-                        <input type="checkbox" name="check" id="accept" required> 
-                        <a class=" tooltip" href="https://www.biblioteka.krakow.pl/wp-content/uploads/2019/10/Regulamin-korzystania-z-materia%C5%82%C3%B3w-bibliotecznych-oraz-us%C5%82ug-Biblioteki-Krak%C3%B3w_3.pdf">Akceptuję warunki regulaminu*
-                            <span class="tooltiptext">Kliknij, aby otworzyć</span>
-                        </a>
-                    </label>
                 <div class="registration_form_element">
                     <label>
                         <input type="checkbox" name="check" id="consent"> 
@@ -144,26 +174,26 @@
             var four = document.getElementById('country_code4');
             var five = document.getElementById('country_code5');
 
-            one.addEventListener('keypress', function(){
+            one.addEventListener('keydown', function(){
                 if (one.value.length >= 1){
                     two.focus();
                 }
-            })
-            two.addEventListener('keypress', function(){
+            });
+            two.addEventListener('keydown', function(){
                 if (two.value.length >= 1){
                     three.focus();
                 }
-            })
-            three.addEventListener('keypress', function(){
+            });
+            three.addEventListener('keydown', function(){
                 if (three.value.length >= 1){
                     four.focus();
                 }
-            })
-            four.addEventListener('keypress', function(){
+            });
+            four.addEventListener('keydown', function(){
                 if (four.value.length >= 1){
                     five.focus();
                 }
-            })
+            });
         </script>
     </body>
 </html>

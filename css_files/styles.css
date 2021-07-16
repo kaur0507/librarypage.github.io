@@ -277,10 +277,9 @@ a:hover{
     background-color: rgb(19, 90, 131);
     color: white;
 }
-.fb_icon:hover {
-    opacity: 0.7;
+.registration_form_element i{
+    visibility: hidden;
 }
-
 .registration_form_element.success input{
     border-style: double;
     border-color: #104727;
@@ -293,11 +292,20 @@ a:hover{
     visibility: visible;
     color: #104727;
 }
-.registration_form_element.success i.fa.fa-exclamation{
+.registration_form_element.error i.fa.fa-exclamation{
     visibility: visible;
     color: #ff4530;
+}
+.registration_form_element.success i.fa.fa-exclamation{
+    visibility: hidden;
+}
+.registration_form_element.error i.fa.fa-check-circle{
+    visibility: hidden;
 }
 .registration_form_element.error small{
     visibility: visible;
     color: #ff4530;
+}
+.registration_form_element.success small{
+    visibility: hidden;
 }
