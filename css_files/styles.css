@@ -277,35 +277,35 @@ a:hover{
     background-color: rgb(19, 90, 131);
     color: white;
 }
-.registration_form_element i{
+.registration_form_element i, .contact_form_element i{
     visibility: hidden;
 }
-.registration_form_element.success input{
+.registration_form_element.success input, .contact_form_element.success input{
     border-style: double;
     border-color: #104727;
 }
-.registration_form_element.error input{
+.registration_form_element.error input, .contact_form_element.error input{
     border-style: double;
     border-color: #ff4530;
 }
-.registration_form_element.success i.fa.fa-check-circle{
+.registration_form_element.success i.fa.fa-check-circle, .contact_form_element.success i.fa.fa-check-circle{
     visibility: visible;
     color: #104727;
 }
-.registration_form_element.error i.fa.fa-exclamation{
+.registration_form_element.error i.fa.fa-exclamation, .contact_form_element.error i.fa.fa-exclamation{
     visibility: visible;
     color: #ff4530;
 }
-.registration_form_element.success i.fa.fa-exclamation{
+.registration_form_element.success i.fa.fa-exclamation, .contact_form_element.success i.fa.fa-exclamation{
     visibility: hidden;
 }
-.registration_form_element.error i.fa.fa-check-circle{
+.registration_form_element.error i.fa.fa-check-circle, .contact_form_element.error i.fa.fa-chceck-circle{
     visibility: hidden;
 }
-.registration_form_element.error small{
+.registration_form_element.error small, .contact_form_element.error small{
     visibility: visible;
     color: #ff4530;
 }
-.registration_form_element.success small{
+.registration_form_element.success small, .contact_form_element.success small{
     visibility: hidden;
 }

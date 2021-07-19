@@ -1,0 +1,102 @@
+[
+    {
+        "number": "1",
+        "author": "J. K. Rowling",
+        "title": "Harry Potter"
+    },
+    {
+        "number": "2",
+        "author": "Michelle Zauner",
+        "title": "Crying in H Mart"
+    },
+    {
+        "number": "3",
+        "author": "R. L. Stine",
+        "title": "Goosebumps"
+    },
+    {
+        "number": "4",
+        "author": "Erle Stanley Gardner",
+        "title": "Perry Mason"
+    },
+    {
+        "number": "5",
+        "author": "Stan i Jan Berenstain",
+        "title": "The Berenstain Bears"
+    },
+    {
+        "number": "6",
+        "author": "Francine Pascal",
+        "title": "Bliźniaczki ze Sweet Valley High"
+    },
+    {
+        "number": "7",
+        "author": "Lydia Millet",
+        "title": "A Children’s Bible"
+    },
+    {
+        "number": "8",
+        "author": "James McBride",
+        "title": "Deacon King Kong"
+    },
+    {
+        "number": "9",
+        "author": "Maggie O’Farrell",
+        "title": "Hamnet"
+    },
+    {
+        "number": "10",
+        "author": "Ayad Akhtar",
+        "title": "Homeland Elegies"
+    },
+    {
+        "number": "11",
+        "author": "Brit Bennett",
+        "title": "The Vanishing Half"
+    },
+    {
+        "number": "12",
+        "author": "Robert Kolker",
+        "title": "Hidden Valley Road"
+    },
+    {
+        "number": "13",
+        "author": "Barack Obama",
+        "title": "A Promised Land"
+    },
+    {
+        "number": "14",
+        "author": "Kristin Hannah",
+        "title": "The Four Winds"
+    },
+    {
+        "number": "15",
+        "author": "James Shapiro",
+        "title": "Shakespeare in a Divided America"
+    },
+    {
+        "number": "16",
+        "author": "Anna Wiener",
+        "title": "Uncanny Valley"
+    },
+    {
+        "number": "17",
+        "author": "Margaret MacMillan",
+        "title": "War"
+    },
+    {
+        "number": "18",
+        "author": "Eric Nguyen",
+        "title": "Things We Lost to the Water"
+    },
+    {
+        "number": "19",
+        "author": "Sarah Penner",
+        "title": "The Lost Apothecary"
+    },
+    {
+        "number": "20",
+        "author": "Andy Weir",
+        "title": "Project Hail Mary"
+    }
+]

@@ -161,7 +161,6 @@ function setError(input, message){
 }
 function setSuccess(input){
     var control = input.parentElement;
-    var error = control.querySelector('small');
 
     control.className = 'registration_form_element success';
 }

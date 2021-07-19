@@ -29,7 +29,7 @@
             <label>Wpisz wyszukiwaną frazę<br>
                 <input class="searching" placeholder=" Przeszukaj..." name="searching_area" id="book_filter">
             </label>
-            <button class="searching_button">Szukaj</button>
+            <button class="searching_button" id="searching_button" onclick="searchClick()">Szukaj</button>
         </section>
 
         <section>
@@ -40,110 +40,47 @@
                         <th fieldid="1">Autor</th>
                         <th fieldid="2">Tytuł</th>
                     </tr>
-                <tbody>
-                    <tr>
-                        <td>J. K. Rowling</td>
-                        <td><i>Harry Potter</i></td>
-                    </tr>
-                    <tr>
-                        <td>R. L. Stine</td>
-                        <td><i>Goosebumps</i></td>
-                    </tr>
-                    <tr>
-                        <td>Erle Stanley Gardner</td>
-                        <td><i>Perry Mason</i></td>
-                    </tr>
-                    <tr>
-                        <td>Stan i Jan Berenstain</td>
-                        <td><i>The Berenstain Bears</i></td>
-                    </tr>
-                    <tr>
-                        <td>Francine Pascal</td>
-                        <td><i>Bliźniaczki ze Sweet Valley High</i></td>
-                    </tr>
-                    <tr>
-                        <td>Lydia Millet</td>
-                        <td><i>A Children’s Bible</i></td>
-                    </tr>
-                    <tr>
-                        <td>James McBride</td>
-                        <td><i>Deacon King Kong</i></td>
-                    </tr>
-                    <tr>
-                        <td>Maggie O’Farrell</td>
-                        <td><i>Hamnet</i></td>
-                    </tr>
-                    <tr>
-                        <td>Ayad Akhtar</td>
-                        <td><i>Homeland Elegies</i></td>
-                    </tr>
-                    <tr>
-                        <td>Brit Bennett</td>
-                        <td><i>The Vanishing Half</i></td>
-                    </tr>
-                    <tr>
-                        <td>Robert Kolker</td>
-                        <td><i>Hidden Valley Road</i></td>
-                    </tr>
-                    <tr>
-                        <td>Barack Obama</td>
-                        <td><i>A Promised Land</i></td>
-                    </tr>
-                    <tr>
-                        <td>James Shapiro</td>
-                        <td><i>Shakespeare in a Divided America</i></td>
-                    </tr>
-                    <tr>
-                        <td>Anna Wiener</td>
-                        <td><i>Uncanny Valley</i></td>
-                    </tr>
-                    <tr>
-                        <td>Margaret MacMillan</td>
-                        <td><i>War</i></td>
-                    </tr>
-                    <tr>
-                        <td>Kristin Hannah</td>
-                        <td><i>The Four Winds</i></td>
-                    </tr>
-                    <tr>
-                        <td>Eric Nguyen</td>
-                        <td><i>Things We Lost to the Water</i></td>
-                    </tr>
-                    <tr>
-                        <td>Sarah Penner</td>
-                        <td><i>The Lost Apothecary</i></td>
-                    </tr>
-                    <tr>
-                        <td>Andy Weir</td>
-                        <td><i>Project Hail Mary</i></td>
-                    </tr>
-                    <tr>
-                        <td>Michelle Zauner</td>
-                        <td><i>Crying in H Mart</i></td>
-                    </tr>
+                <tbody id="table_body">
                 </tbody>
             </table>
         </section>
-        <script>
-            var tables = document.getElementsByTagName('tbody'); //takes elements from tbody tag
-            var table = tables[tables.length -1];
-            var rows = table.rows; 
-            for(var i = 0; i < rows.length; i++)
-            {
-                td = document.createElement('td');
-                td.appendChild(document.createTextNode(i + 1)); //adds numbers as "Lp" column
-                rows[i].insertBefore(td, rows[i].firstChild); //adds new element before the old one
-            }
-        </script>
-        <script>
+
+       <script>
             $(document).ready(function(){
-              $("#book_filter").on("keyup", function() {
-                var value = $(this).val().toLowerCase();
-                $("#table_to_filter tr").filter(function() {
-                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                $.getJSON("../json_files/books.json", function(data){
+                    var books_data = '';
+                    $.each(data, function(key, value){
+                        books_data += '<tr>';
+                        books_data += '<td>' + value.number + '</td>';
+                        books_data += '<td>' + value.author + '</td>';
+                        books_data += '<td>' + value.title + '</td>';
+                        books_data += '</tr>';
+                    });
+                    $('#table_body').append(books_data);
                 });
-              });
             });
+
+            function searchClick(){
+                $.getJSON("../json_files/books.json", function(data){
+                    var books_data = [];
+                    $.each(data, function(key, value){
+                        books_data.push(value);
+                    });
+                    var pom = '';
+                    var input = document.getElementById('book_filter').value.toLowerCase();
+                    for(var i = 0; i < books_data.length; i++){
+                        if (books_data[i].number.toLowerCase().indexOf(input) > -1 || books_data[i].author.toLowerCase().indexOf(input) > -1 || books_data[i].title.toLowerCase().indexOf(input) > -1){
+                            pom += '<tr>';
+                            pom += '<td>' + books_data[i].number + '</td>';
+                            pom += '<td>' + books_data[i].author + '</td>';
+                            pom += '<td>' + books_data[i].title + '</td>';
+                            pom += '</tr>';
+                        }
+                    }
+                    $('#table_body').html("");
+                    $('#table_body').append(pom);
+                });
+            };
         </script>
     </body>
 </html>
