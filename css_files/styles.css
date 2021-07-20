@@ -3,6 +3,7 @@ body{
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     word-spacing: 2px;
     line-height: 150%;
+    font-size: 14px;
 }
 .library{
     max-width: 100%; 
@@ -19,6 +20,7 @@ body{
 } 
 .menu_list{
     float: right;
+    align-items: flex-end;
     text-align: center;
     font-size: 1.2em;
     width: 130px;
@@ -80,6 +82,8 @@ p{
 .one_day_img{
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
     float: right;
     max-height: 250px;
     height: auto;
@@ -114,6 +118,9 @@ tr:nth-child(even){
 }
 .mail{
     color: rgb(19, 90, 131);
+}
+.contact{
+    margin-right: 50px;
 }
 .contact_data{
     margin-left: auto;
@@ -192,6 +199,8 @@ tr:nth-child(even){
     border:rgb(255, 255, 255);
     padding: 5px;
     width: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 .summary_button, .searching_button{
     font-size: 14px;
@@ -311,4 +320,49 @@ a:hover{
 }
 .registration_form_element.success small, .contact_form_element.success small{
     visibility: hidden;
+}
+
+/* 
+@media screen and (min-width: 18em){
+    body {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 23em){
+    body{
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width: 37em){
+    body {
+        font-size: 1.0em;
+    }
+}
+@media screen and (min-width: 44em){
+    body {
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 58em){
+    body {
+        font-size: 1.2em;
+    }
+}
+.one_day_img{
+
+}
+.one_more_step_img{
+
+} */
+
+@media screen and (min-width: 520px) {
+    body {
+      font-size: calc(10px + 8 * ((100vw - 520px) / 680));
+    }
+}
+@media screen and (min-width: 1000px) {
+    body {
+      font-size: 20px;
+    }
 }
