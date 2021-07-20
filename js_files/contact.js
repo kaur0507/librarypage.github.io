@@ -145,7 +145,7 @@ function sumUp(){
     }
     
     data.push("\nKod pocztowy: " + pom);
-    data.push("\nEmai;: " + form[9].value);
+    data.push("\nEmail: " + form[9].value);
     data.push("\nWiadomość: " + form[10].value);
     alert(data);
 }

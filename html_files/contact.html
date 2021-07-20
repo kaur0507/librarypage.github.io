@@ -13,6 +13,9 @@
     </head>
 
     <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v11.0" nonce="0t3sJER6"></script>
+        
         <section class="main_page">
             <nav>
                 <ul class="menu">
@@ -29,8 +32,6 @@
 
         <section class="contact_data">
             <div class="contact">
-                <div id="fb-root"></div>
-                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v11.0" nonce="0t3sJER6"></script>
                 <div class="service_center">
                     <h2>Centrum Obsługi</h2>
                     <hr class="line">
@@ -63,7 +64,7 @@
                 <div class="facebook">
                     <h2>Nasza strona na facebook'u</h2>
                     <hr class="line">
-                    <div class="fb-like" data-href="https://kaur0507.github.io/librarypage.github.io/contact.html" data-width="150" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+                    <div class="fb-like" data-href="https://kaur0507.github.io/librarypage.github.io/html_files/contact.html" data-width="150" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
                 </div>
             </div>
             <div class="form">
@@ -88,8 +89,6 @@
                         <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
-
-
                     <div class="contact_form_element">
                         <label for="name">Ulica</label>
                     </div>
@@ -167,22 +166,22 @@
             var four = document.getElementById('country_code4');
             var five = document.getElementById('country_code5');
 
-            one.addEventListener('keydown', function(){
+            one.addEventListener('keyup', function(){
                 if (one.value.length >= 1){
                     two.focus();
                 }
             })
-            two.addEventListener('keydown', function(){
+            two.addEventListener('keyup', function(){
                 if (two.value.length >= 1){
                     three.focus();
                 }
             })
-            three.addEventListener('keydown', function(){
+            three.addEventListener('keyup', function(){
                 if (three.value.length >= 1){
                     four.focus();
                 }
             })
-            four.addEventListener('keydown', function(){
+            four.addEventListener('keyup', function(){
                 if (four.value.length >= 1){
                     five.focus();
                 }

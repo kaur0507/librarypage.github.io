@@ -171,22 +171,22 @@
             var four = document.getElementById('country_code4');
             var five = document.getElementById('country_code5');
 
-            one.addEventListener('keydown', function(){
+            one.addEventListener('keyup', function(){
                 if (one.value.length >= 1){
                     two.focus();
                 }
             });
-            two.addEventListener('keydown', function(){
+            two.addEventListener('keyup', function(){
                 if (two.value.length >= 1){
                     three.focus();
                 }
             });
-            three.addEventListener('keydown', function(){
+            three.addEventListener('keyup', function(){
                 if (three.value.length >= 1){
                     four.focus();
                 }
             });
-            four.addEventListener('keydown', function(){
+            four.addEventListener('keyup', function(){
                 if (four.value.length >= 1){
                     five.focus();
                 }

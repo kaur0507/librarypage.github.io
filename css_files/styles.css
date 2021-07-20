@@ -123,12 +123,12 @@ tr:nth-child(even){
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
-    flex-grow: -1;
+    flex-wrap: wrap;
     background-color: rgb(227, 242, 243);
 }
 .contact_form{
     display: block;
-    margin: 0;
+    padding-right: 50px;
 }
 .fb_icon{
     max-width: 25px;
@@ -172,7 +172,10 @@ tr:nth-child(even){
 .form{
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    margin-left: 50px;
+}
+.contact_form_element{
+    display: flex;
+    flex-direction: row;
 }
 .value{
     background-color: rgb(195, 233, 235);
