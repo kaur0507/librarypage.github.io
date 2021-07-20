@@ -179,7 +179,7 @@ function formSerialize(){
     var form = $("#register").serializeArray();
     var data = [];
     data.push("Imię: " + form[0].value);
-    data.push("\nNazwisko :" + form[1].value);
+    data.push("\nNazwisko: " + form[1].value);
     data.push("\nEmial: " + form[2].value);
     data.push("\nWojewództwo: " + form[5].value);
     data.push("\nMiasto: " + form[6].value);

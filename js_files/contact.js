@@ -131,7 +131,7 @@ function sumUp(){
     var form = $("#contact").serializeArray();
     var data = [];
     data.push("Imię: " + form[0].value);
-    data.push("\nNazwisko :" + form[1].value);
+    data.push("\nNazwisko: " + form[1].value);
     data.push("\nUlica: " + form[2].value);
     data.push("\nMiasto: " + form[3].value);
 
