@@ -14,8 +14,8 @@
     </head>
 
     <body>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v11.0" nonce="0t3sJER6"></script>
+        <!-- <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v11.0" nonce="0t3sJER6"></script> -->
         
         <section class="main_page">
             <nav>
@@ -65,7 +65,11 @@
                 <div class="facebook">
                     <h2>Polub nas na facebook'u</h2>
                     <hr class="line">
-                    <div class="fb-like" data-href="https://kaur0507.github.io/librarypage.github.io/html_files/contact.html" data-width="150" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+                    <!-- <div class="fb-like" data-href="https://kaur0507.github.io/librarypage.github.io/html_files/contact.html" data-width="150" data-layout="standard" data-action="like" data-size="small" data-share="true"></div> -->
+                    <div class="fb_like">
+                        <span class="likebtn-wrapper" data-theme="custom" data-icon_l_c="rgb(19,90,131)" data-icon_l_c_v="rgb(195,233,235)" data-icon_d_c="rgb(19,90,131)" data-icon_d_c_v="rgb(195,233,235)" data-label_c="rgb(19,90,131)" data-label_c_v="rgb(195,233,235)" data-counter_l_c="rgb(19,90,131)" data-counter_d_c="rgb(19,90,131)" data-brdr_c="#000000" data-f_family="Courier New" data-lang="pl" data-identifier="like_button"></span>
+                        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+                    </div><br>
                 </div>
             </div>
             <div class="form">
@@ -78,7 +82,7 @@
                     <div class="contact_form_element">
                         <input class="data" type="text" required name="contact_data" id="name" onchange="nameClick()" minlength="0" maxlength="150">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
@@ -87,7 +91,7 @@
                     <div class="contact_form_element">
                         <input class="data" type="text" required name="contact_data" id="surname" onchange="surnameClick()" minlength="0" maxlength="150">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
@@ -96,7 +100,7 @@
                     <div class="contact_form_element">
                         <input class="data" type="text" required name="contact_data" id="street" onchange="streetClick()" minlength="0" maxlength="150" pattern="(ul.|al.|pl.|os.)+ +[0-9a-zA-Z]+ +[0-9]{1,}" title="ul./al./os./pl. nazwa ulicy i numer">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
@@ -105,7 +109,7 @@
                     <div class="contact_form_element">
                         <input class="data" type="text" required name="contact_data" id="city" onchange="cityClick()" minlength="0" maxlength="150">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
@@ -121,16 +125,16 @@
                     
                         <input type="hidden" class="hidden_zip" id="hidden_zip">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
                         <label for="email">E-mail</label>
                     </div>
                     <div class="contact_form_element">
-                        <input class="value" type="email" required name="contact_data" id="email" onchange="emailClick()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        <input class="data" type="email" required name="contact_data" id="email" onchange="emailClick()" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
 
@@ -138,10 +142,9 @@
                         <label for="message">W jakiej sprawie do nas piszesz?</label>
                     </div>
                     <div class="contact_form_element">
-                        <textarea class="value" required name="contact_data" id="message" rows="7" cols="40" minlength="1" maxlength="250" onchange="messageClick()"></textarea>
-                        <input type="hidden" class="hidden_zip" id="hidden_zip">
+                        <textarea class="data" required name="contact_data" id="message" minlength="1" maxlength="250" onchange="messageClick()"></textarea>
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <i class="fa fa-exclamation" aria-hidden="true"></i><br>
+                        <i class="fa fa-exclamation" aria-hidden="true"></i>
                         <small></small>
                     </div>
                     <div class="contact_form_element">
