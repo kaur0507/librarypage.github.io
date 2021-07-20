@@ -351,7 +351,7 @@ a:hover{
         width: 230px;
     }
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 320px) {
     body {
       font-size: calc(10px + 8 * ((100vw - 520px) / 680));
     }
